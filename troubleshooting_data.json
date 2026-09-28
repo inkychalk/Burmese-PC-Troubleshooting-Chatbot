@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "category": "Hardware - Desktop",
+    "problem_en": "Computer won't turn on",
+    "problem_my": "ကွန်ပျူတာ ပါဝါမပွင့်ခြင်း",
+    "symptoms_en": "No power, no lights, no fan noise",
+    "symptoms_my": "ပါဝါမလာခြင်း၊ မီးမလင်းခြင်း၊ ပန်ကာသံမကြားရခြင်း",
+    "solution_en": "Check power cable, try different outlet, verify PSU is ON",
+    "solution_my": "ပါဝါကြိုး စစ်ဆေးပါ၊ အခြားမီးပေါက်တွင် စမ်းကြည့်ပါ၊ PSU ပါဝါခလုတ် ပွင့်မပွင့် စစ်ဆေးပါ"
+  },
+  {
+    "id": 2,
+    "category": "Hardware - Desktop",
+    "problem_en": "Computer randomly restarts",
+    "problem_my": "ကွန်ပျူတာ အလိုအလျောက် ခဏခဏ ပြန်စတင်နေခြင်း",
+    "symptoms_en": "System crashes without warning",
+    "symptoms_my": "ကြိုတင်သတိပေးချက်မရှိဘဲ စနစ် ရုတ်တရက် ပိတ်သွားခြင်း/ဒေါင်းသွားခြင်း",
+    "solution_en": "Check overheating, run memory test, update drivers",
+    "solution_my": "အပူချိန် လွန်ကဲခြင်း ရှိမရှိ စစ်ဆေးပါ၊ Memory test စမ်းသပ်ပါ၊ Driver များ update လုပ်ပါ"
+  },
+  {
+    "id": 3,
+    "category": "Hardware - Desktop",
+    "problem_en": "CPU overheating",
+    "problem_my": "CPU အလွန်အမင်း ပူနွေးလာခြင်း",
+    "symptoms_en": "High CPU temperature above 80°C",
+    "symptoms_my": "CPU အပူချိန် 80°C ထက် ကျော်လွန်နေခြင်း",
+    "solution_en": "Clean heatsink, check thermal paste, improve ventilation",
+    "solution_my": "Heatsink သန့်ရှင်းပါ၊ Thermal paste ပြန်သုတ်ပါ၊ လေဝင်လေထွက် ကောင်းမွန်အောင် ပြုလုပ်ပါ"
+  },
+  {
+    "id": 4,
+    "category": "Hardware - Desktop",
+    "problem_en": "GPU not detected",
+    "problem_my": "GPU (ဂရပ်ဖစ်ကဒ်) အသိအမှတ်မပြုခြင်း",
+    "symptoms_en": "No video output, only onboard graphics work",
+    "symptoms_my": "Display မလာခြင်း၊ Onboard graphics သာ အလုပ်လုပ်ခြင်း",
+    "solution_en": "Reseat GPU, update drivers, check PCIe slot",
+    "solution_my": "GPU ကို ဖြုတ်ပြီး ပြန်တပ်ပါ၊ Driver များ update လုပ်ပါ၊ PCIe slot ကို စစ်ဆေးပါ"
+  },
+  {
+    "id": 5,
+    "category": "Hardware - Desktop",
+    "problem_en": "RAM not recognized",
+    "problem_my": "RAM ကို အသိအမှတ်မပြုခြင်း",
+    "symptoms_en": "System shows less RAM than installed",
+    "symptoms_my": "တပ်ဆင်ထားသည်ထက် RAM ပမာဏ နည်းပြီး ပြသနေခြင်း",
+    "solution_en": "Reseat RAM modules, try different slots, update BIOS",
+    "solution_my": "RAM ကို ဖြုတ်ပြီး ပြန်တပ်ပါ၊ အခြား slot များတွင် စမ်းကြည့်ပါ၊ BIOS update လုပ်ပါ"
+  },
+  {
+    "id": 6,
+    "category": "Hardware - Desktop",
+    "problem_en": "Hard drive not detected",
+    "problem_my": "Hard drive အသိအမှတ်မပြုခြင်း",
+    "symptoms_en": "BIOS doesn't show drive, no boot options",
+    "symptoms_my": "BIOS တွင် drive မပေါ်ခြင်း၊ Boot တက်ရန် option မရှိခြင်း",
+    "solution_en": "Check SATA cable, try different port, check BIOS settings",
+    "solution_my": "SATA ကြိုး စစ်ဆေးပါ၊ အခြား port တွင် စမ်းကြည့်ပါ၊ BIOS setting များ စစ်ဆေးပါ"
+  },
+  {
+    "id": 7,
+    "category": "Hardware - Desktop",
+    "problem_en": "Power supply fan not spinning",
+    "problem_my": "Power Supply (PSU) ပန်ကာ မလည်ခြင်း",
+    "symptoms_en": "PSU fan completely silent, no rotation",
+    "symptoms_my": "PSU ပန်ကာ လုံးဝအသံမထွက်ဘဲ မလည်ပတ်ခြင်း",
+    "solution_en": "Check fan manually, listen for bearing noise, PSU may need replacement",
+    "solution_my": "ပန်ကာကို စစ်ဆေးပါ၊ အသံပါမပါ နားထောင်ပါ၊ လိုအပ်ပါက PSU အသစ်လဲလှယ်ပါ"
+  },
+  {
+    "id": 8,
+    "category": "Hardware - Desktop",
+    "problem_en": "Motherboard not detecting CPU",
+    "problem_my": "Motherboard က CPU ကို အသိအမှတ်မပြုခြင်း",
+    "symptoms_en": "No POST, continuous beep codes",
+    "symptoms_my": "POST မတက်ခြင်း၊ Beep အသံ ဆက်တိုက်မြည်နေခြင်း",
+    "solution_en": "Reseat CPU, check socket for damage, verify BIOS compatibility",
+    "solution_my": "CPU ကို ဖြုတ်ပြီး ပြန်တပ်ပါ၊ Socket Pin များ ပျက်စီးမှု ရှိမရှိ စစ်ဆေးပါ၊ BIOS သဟဇာတဖြစ်မှုကို စစ်ဆေးပါ"
+  },
+  {
+    "id": 9,
+    "category": "Hardware - Desktop",
+    "problem_en": "SSD not showing in Windows",
+    "problem_my": "Windows တွင် SSD မပေါ်ခြင်း",
+    "symptoms_en": "New SSD not visible in File Explorer",
+    "symptoms_my": "SSD အသစ်သည် File Explorer တွင် မပေါ်ခြင်း",
+    "solution_en": "Initialize disk in Disk Management, format partition",
+    "solution_my": "Disk Management တွင် Disk ကို Initialize လုပ်ပါ၊ Partition format ရိုက်ပါ"
+  },
+  {
+    "id": 10,
+    "category": "Hardware - Desktop",
+    "problem_en": "Case fans making noise",
+    "problem_my": "Casing ပန်ကာမှ အသံကျယ်စွာ ထွက်နေခြင်း",
+    "symptoms_en": "Rattling or vibrating noise from case",
+    "symptoms_my": "Casing အတွင်းမှ တုန်ခါသံ သို့မဟုတ် စိစိညံသံများ ထွက်နေခြင်း",
+    "solution_en": "Check fan mounting, balance fan blades, replace if damaged",
+    "solution_my": "ပန်ကာ တပ်ဆင်ထားမှုကို စစ်ဆေးပါ၊ ပန်ကာဒလက်များကို သန့်ရှင်းပါ၊ ပျက်စီးပါက အသစ်လဲလှယ်ပါ"
+  },
+  {
+    "id": 11,
+    "category": "Hardware - Desktop",
+    "problem_en": "Liquid cooler leaking",
+    "problem_my": "Liquid Cooler (ရေအအေးပေးစနစ်) စိမ့်ထွက်ခြင်း",
+    "symptoms_en": "Water stains on PC components",
+    "symptoms_my": "PC အစိတ်အပိုင်းများပေါ်တွင် ရေကွက်များ တွေ့ရခြင်း",
+    "solution_en": "Stop using immediately, dry components, replace cooler",
+    "solution_my": "ချက်ချင်း အသုံးပြုမှုရပ်ဆိုင်းပါ၊ အစိတ်အပိုင်းများကို အခြောက်ခံပါ၊ Cooler အသစ်လဲလှယ်ပါ"
+  },
+  {
+    "id": 12,
+    "category": "Hardware - Desktop",
+    "problem_en": "BIOS settings reset on restart",
+    "problem_my": "ကွန်ပျူတာ ပြန်စတင်တိုင်း BIOS settings များ Reset ဖြစ်သွားခြင်း",
+    "symptoms_en": "BIOS settings don't save, CMOS battery warning",
+    "symptoms_my": "BIOS setting များ သိမ်းဆည်းမရခြင်း၊ CMOS battery သတိပေးချက်ပြခြင်း",
+    "solution_en": "Replace CMOS battery, check battery connections",
+    "solution_my": "CMOS ဓာတ်ခဲ အသစ်လဲလှယ်ပါ၊ ဓာတ်ခဲ ငုတ်များကို စစ်ဆေးပါ"
+  },
+  {
+    "id": 13,
+    "category": "Hardware - Desktop",
+    "problem_en": "CPU fan curves not adjusting",
+    "problem_my": "CPU ပန်ကာ အရှိန်အလိုအလျောက် မပြောင်းလဲခြင်း",
+    "symptoms_en": "Fan doesn't speed up with temperature",
+    "symptoms_my": "အပူချိန် မြင့်တက်လာသော်လည်း ပန်ကာအရှိန် မတိုးလာခြင်း",
+    "solution_en": "Check BIOS fan settings, update BIOS, check sensor",
+    "solution_my": "BIOS ၏ Fan Settings ကို စစ်ဆေးပါ၊ BIOS update လုပ်ပါ၊ အပူချိန် Sensor စစ်ဆေးပါ"
+  },
+  {
+    "id": 14,
+    "category": "Hardware - Desktop",
+    "problem_en": "Case front panel USB not working",
+    "problem_my": "Casing အရှေ့ဘက် USB Port များ အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Front USB ports don't work, back USB work fine",
+    "symptoms_my": "အရှေ့ USB port များ မရဘဲ၊ အနောက် port များသာ ပုံမှန်အလုပ်လုပ်ခြင်း",
+    "solution_en": "Check internal USB header connection, reseat cable",
+    "solution_my": "Motherboard ပေါ်ရှိ USB Header ကြိုး ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ပြန်တပ်ပါ"
+  },
+  {
+    "id": 15,
+    "category": "Hardware - Desktop",
+    "problem_en": "RAM slots not all working",
+    "problem_my": "RAM slot များ အားလုံး အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Only some RAM slots recognized",
+    "symptoms_my": "RAM slot အချို့ကိုသာ စနစ်က အသိအမှတ်ပြုခြင်း",
+    "solution_en": "Test each slot individually, try different RAM, check for bent pins",
+    "solution_my": "Slot တစ်ခုချင်းစီကို စမ်းသပ်ပါ၊ အခြား RAM ဖြင့် စမ်းပါ၊ Motherboard Pin များ ကွေးနေခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 16,
+    "category": "Hardware - Desktop",
+    "problem_en": "Graphics card artifacting",
+    "problem_my": "Graphics card မှ ရုပ်ထွက် ပျက်စီး/ကြိုးကြောင်းများ ပေါ်နေခြင်း (Artifacting)",
+    "symptoms_en": "Visual glitches, corrupted textures, random artifacts",
+    "symptoms_my": "မျက်နှာပြင်ပေါ်တွင် ရုပ်ထွက် ပျက်ယွင်းခြင်း၊ အကွက်များ သို့မဟုတ် ကြိုးကြောင်းများ ပေါ်နေခြင်း",
+    "solution_en": "Clean GPU cooling, check power connectors, update drivers",
+    "solution_my": "GPU အအေးပေးစနစ်ကို သန့်ရှင်းပါ၊ ပါဝါကြိုးများကို စစ်ဆေးပါ၊ Driver များ update လုပ်ပါ"
+  },
+  {
+    "id": 17,
+    "category": "Hardware - Desktop",
+    "problem_en": "SATA cable disconnected",
+    "problem_my": "SATA ကြိုး ချိတ်ဆက်မှု ပြုတ်ထွက်နေခြင်း",
+    "symptoms_en": "Storage drive not detected, disappears on restart",
+    "symptoms_my": "Storage drive မပေါ်ခြင်း သို့မဟုတ် Restart ချပါက ပျောက်ပျောက်သွားခြင်း",
+    "solution_en": "Reseat SATA cables, try different cables, check connectors",
+    "solution_my": "SATA ကြိုးများကို ပြန်စိုက်ပါ၊ ကြိုးအသစ်ဖြင့် စမ်းကြည့်ပါ၊ Connector များကို စစ်ဆေးပါ"
+  },
+  {
+    "id": 18,
+    "category": "Hardware - Desktop",
+    "problem_en": "PC won't display on any monitor",
+    "problem_my": "PC မှ မည်သည့် Monitor သို့မျှ Display မတက်ခြင်း",
+    "symptoms_en": "No video signal on any monitor, tried different cables",
+    "symptoms_my": "ကြိုးများ လဲလှယ်စမ်းသပ်သော်လည်း မည်သည့် Monitor တွင်မျှ Signal မလာခြင်း",
+    "solution_en": "Test GPU separately, check RAM installation, test with onboard graphics",
+    "solution_my": "GPU ကို သီးသန့် စမ်းသပ်ပါ၊ RAM တပ်ဆင်မှုကို စစ်ဆေးပါ၊ Onboard graphics ဖြင့် စမ်းကြည့်ပါ"
+  },
+  {
+    "id": 19,
+    "category": "Hardware - Desktop",
+    "problem_en": "LED RGB lighting not syncing",
+    "problem_my": "RGB LED မီးများ အပြိုင်အဆိုင် ချိတ်ဆက်မှုမရခြင်း (Sync မဖြစ်ခြင်း)",
+    "symptoms_en": "Lighting software doesn't control RGB",
+    "symptoms_my": "RGB ထိန်းချုပ်သည့် Software မှ မီးများကို ထိန်းချုပ်၍မရခြင်း",
+    "solution_en": "Reinstall lighting software, check USB connections, update firmware",
+    "solution_my": "RGB Software ကို ပြန် reinstall လုပ်ပါ၊ USB ချိတ်ဆက်မှုများကို စစ်ဆေးပါ၊ Firmware update လုပ်ပါ"
+  },
+  {
+    "id": 20,
+    "category": "Hardware - Desktop",
+    "problem_en": "Standby mode not working",
+    "problem_my": "Standby / Sleep mode အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Computer won't sleep, wakes immediately",
+    "symptoms_my": "ကွန်ပျူတာ Sleep mode မဝင်ခြင်း သို့မဟုတ် ချက်ချင်း ပြန်နိုးလာခြင်း",
+    "solution_en": "Check power settings, disable wake timers, update chipset drivers",
+    "solution_my": "Power settings ကို စစ်ဆေးပါ၊ Wake timers များကို ပိတ်ပါ၊ Chipset drivers များကို update လုပ်ပါ"
+  },
+  {
+    "id": 21,
+    "category": "Hardware - Laptop",
+    "problem_en": "Laptop battery not charging",
+    "problem_my": "Laptop ဘက်ထရီ အားမဝင်ခြင်း",
+    "symptoms_en": "Battery percentage not increasing",
+    "symptoms_my": "ဘက်ထရီ ရာခိုင်နှုန်း တက်မလာခြင်း",
+    "solution_en": "Check charger cable, try different outlet, may need new battery",
+    "solution_my": "အားသွင်းကြိုး စစ်ဆေးပါ၊ အခြား မီးပေါက်တွင် စမ်းကြည့်ပါ၊ ဘက်ထရီ အသစ်လဲရန် လိုအပ်နိုင်ပါသည်"
+  },
+  {
+    "id": 22,
+    "category": "Hardware - Laptop",
+    "problem_en": "Laptop won't turn on but charger light on",
+    "problem_my": "Laptop ပါဝါမပွင့်သော်လည်း Charger မီးလင်းနေခြင်း",
+    "symptoms_en": "No response to power button, charger LED is on",
+    "symptoms_my": "Power ခလုတ်နှိပ်သော်လည်း တုံ့ပြန်မှုမရှိခြင်း၊ အားသွင်း LED မီး လင်းနေခြင်း",
+    "solution_en": "Hard reset by holding power button, check for dead battery",
+    "solution_my": "Power ခလုတ်ကို စက္ကန့် ၃၀ ဖိထား၍ Hard reset လုပ်ပါ၊ ဘက်ထရီ ပျက်မပျက် စစ်ဆေးပါ"
+  },
+  {
+    "id": 23,
+    "category": "Hardware - Laptop",
+    "problem_en": "Laptop keyboard not working",
+    "problem_my": "Laptop ကီးဘုတ် အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Keys don't register, some keys unresponsive",
+    "symptoms_my": "ကီးများ နှိပ်မရခြင်း သို့မဟုတ် အချို့ကီးများ တုံ့ပြန်မှုမရှိခြင်း",
+    "solution_en": "Try external keyboard, update drivers, may need replacement",
+    "solution_my": "ပြင်ပ ကီးဘုတ်ဖြင့် စမ်းကြည့်ပါ၊ Driver များ update လုပ်ပါ၊ ကီးဘုတ် အသစ်လဲလှယ်ရန် လိုအပ်နိုင်ပါသည်"
+  },
+  {
+    "id": 24,
+    "category": "Hardware - Laptop",
+    "problem_en": "Laptop screen black or flickering",
+    "problem_my": "Laptop မျက်နှာပြင် မဲမှောင်နေခြင်း သို့မဟုတ် တုန်ခါနေခြင်း",
+    "symptoms_en": "No display, flickering image, dark screen",
+    "symptoms_my": "Display မလာခြင်း၊ ရုပ်ထွက် တုန်ခါခြင်း၊ မျက်နှာပြင် မှောင်နေခြင်း",
+    "solution_en": "Check display cable, try external monitor, update graphics drivers",
+    "solution_my": "Display ကြိုးကို စစ်ဆေးပါ၊ ပြင်ပ Monitor ဖြင့် စမ်းကြည့်ပါ၊ Graphics driver ကို update လုပ်ပါ"
+  },
+  {
+    "id": 25,
+    "category": "Hardware - Laptop",
+    "problem_en": "Laptop fan making loud noise",
+    "problem_my": "Laptop ပန်ကာ အသံကျယ်စွာ မြည်နေခြင်း",
+    "symptoms_en": "Constant loud fan noise, grinding sounds",
+    "symptoms_my": "ပန်ကာသံ ဆက်တိုက် ကျယ်လောင်စွာ မြည်နေခြင်း၊ ဂျိန်းဂျိန်း အသံထွက်နေခြင်း",
+    "solution_en": "Clean internal dust, check for obstruction, may need fan replacement",
+    "solution_my": "အတွင်းပိုင်း ဖုန်မှုန့်များကို သန့်ရှင်းပါ၊ ပိတ်ဆို့မှုကို စစ်ဆေးပါ၊ ပန်ကာ အသစ်လဲရန် လိုအပ်နိုင်ပါသည်"
+  },
+  {
+    "id": 26,
+    "category": "Hardware - Laptop",
+    "problem_en": "Won't charge when powered on",
+    "problem_my": "Laptop ပါဝါပွင့်နေချိန်တွင် အားမဝင်ခြင်း",
+    "symptoms_en": "Only charges when off, charging stops when turned on",
+    "symptoms_my": "စက်ပိတ်ထားချိန်တွင်သာ အားဝင်ပြီး၊ စက်ဖွင့်လိုက်ပါက အားသွင်းမှု ရပ်သွားခြင်း",
+    "solution_en": "Check power usage, may be exceeding charger capacity",
+    "solution_my": "ပါဝါသုံးစွဲမှုကို စစ်ဆေးပါ၊ Charger ၏ ထောက်ပံ့နိုင်သော ဝပ်အားထက် ကျော်လွန်နေနိုင်ပါသည်"
+  },
+  {
+    "id": 27,
+    "category": "Hardware - Laptop",
+    "problem_en": "Battery drains very fast",
+    "problem_my": "Laptop ဘက်ထရီ အလွန်မြန်စွာ ကုန်ဆုံးခြင်း",
+    "symptoms_en": "Battery lasts only minutes, rapid discharge",
+    "symptoms_my": "ဘက်ထရီသည် မိနစ်ပိုင်းသာ ခံပြီး အလျင်အမြန် ကုန်သွားခြင်း",
+    "solution_en": "Check background apps, reduce screen brightness, battery may be degraded",
+    "solution_my": "နောက်ခံ အက်ပ်များကို စစ်ဆေးပါ၊ စခရင် အလင်းလျှော့ပါ၊ ဘက်ထရီ သက်တမ်း ကုန်နေနိုင်ပါသည်"
+  },
+  {
+    "id": 28,
+    "category": "Hardware - Laptop",
+    "problem_en": "Hinge broken or loose",
+    "problem_my": "Laptop စခရင် အဆက် (Hinge) ကျိုးသွားခြင်း သို့မဟုတ် ချောင်နေခြင်း",
+    "symptoms_en": "Screen loose, visible crack near hinge",
+    "symptoms_my": "စခရင် ချောင်နေခြင်း၊ Hinge အနီးတွင် အက်ကြောင်းများ တွေ့ရခြင်း",
+    "solution_en": "Professional repair needed, don't force screen open",
+    "solution_my": "ကျွမ်းကျင်ပြင်ဆင်သူထံ ပြသရန် လိုအပ်ပါသည်၊ စခရင်ကို အတင်းအားစိုက် မဖွင့်ပါနှင့်"
+  },
+  {
+    "id": 29,
+    "category": "Hardware - Laptop",
+    "problem_en": "Display cable loose",
+    "problem_my": "Laptop Display ကြိုး ချောင်နေခြင်း",
+    "symptoms_en": "Flickering display, screen goes black when moved",
+    "symptoms_my": "စခရင် တုန်ခါခြင်း၊ စခရင်ကို လှုပ်ရှားလိုက်ပါက မဲမှောင်သွားခြင်း",
+    "solution_en": "Reseat display cable, check connectors gently",
+    "solution_my": "Display ကြိုးကို ဖြုတ်ပြီး သေချာ ပြန်တပ်ပါ၊ Connector များကို ညင်သာစွာ စစ်ဆေးပါ"
+  },
+  {
+    "id": 30,
+    "category": "Hardware - Laptop",
+    "problem_en": "Touchpad click not working",
+    "problem_my": "Laptop Touchpad/Trackpad နှိပ်၍မရခြင်း",
+    "symptoms_en": "Touch works but clicking doesn't, physical button broken",
+    "symptoms_my": "ထိတွေ့၍ မောက်စ်ရွှေ့ရသော်လည်း Click နှိပ်၍မရခြင်း၊ ခလုတ် ပျက်စီးနေခြင်း",
+    "solution_en": "Try external mouse, professional repair for button replacement",
+    "solution_my": "ပြင်ပ မောက်စ်ဖြင့် စမ်းကြည့်ပါ၊ ခလုတ် လဲလှယ်ရန် ကျွမ်းကျင်သူထံ ပြသပါ"
+  },
+  {
+    "id": 31,
+    "category": "Hardware - Laptop",
+    "problem_en": "Screen brightness can't be adjusted",
+    "problem_my": "Laptop စခရင် အလင်းအမှောင် ချိန်ညှိ၍မရခြင်း",
+    "symptoms_en": "Brightness keys don't work, stuck at full or low brightness",
+    "symptoms_my": "အလင်းချိန် ကီးများ အလုပ်မလုပ်ခြင်း၊ အလင်းဆုံး သို့မဟုတ် အမှောင်ဆုံးတွင် ရပ်နေခြင်း",
+    "solution_en": "Update drivers, check BIOS settings, may need hardware repair",
+    "solution_my": "Driver များ update လုပ်ပါ၊ BIOS settings စစ်ဆေးပါ၊ Hardware ပြင်ဆင်ရန် လိုအပ်နိုင်ပါသည်"
+  },
+  {
+    "id": 32,
+    "category": "Hardware - Laptop",
+    "problem_en": "USB port loose or bent",
+    "problem_my": "Laptop USB port ချောင်နေခြင်း သို့မဟုတ် ကွေးနေခြင်း",
+    "symptoms_en": "USB devices disconnect frequently, bent pins visible",
+    "symptoms_my": "USB ပစ္စည်းများ မကြာခဏ ပြုတ်ထွက်ခြင်း၊ အတွင်း Pin များ ကွေးနေသည်ကို တွေ့ရခြင်း",
+    "solution_en": "Try different ports, careful insertion, may need port replacement",
+    "solution_my": "အခြား port များတွင် စမ်းကြည့်ပါ၊ ဂရုတစိုက် တပ်ဆင်ပါ၊ Port အသစ်လဲလှယ်ရန် လိုအပ်နိုင်ပါသည်"
+  },
+  {
+    "id": 33,
+    "category": "Hardware - Laptop",
+    "problem_en": "Speaker very quiet",
+    "problem_my": "Laptop စပီကာ အသံ အလွန်တိုးနေခြင်း",
+    "symptoms_en": "Audio barely audible at max volume",
+    "symptoms_my": "အသံ ကုန်တင်ထားသော်လည်း အသံကို သဲသဲကွဲကွဲ မကြားရခြင်း",
+    "solution_en": "Check volume settings, update audio drivers, speaker may be damaged",
+    "solution_my": "Volume settings ကို စစ်ဆေးပါ၊ Audio driver update လုပ်ပါ၊ စပီကာ ပျက်စီးနေနိုင်ပါသည်"
+  },
+  {
+    "id": 34,
+    "category": "Hardware - Laptop",
+    "problem_en": "Power button not working",
+    "problem_my": "Laptop Power ခလုတ် အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Can't turn on laptop, button doesn't respond",
+    "symptoms_my": "Laptop ပါဝါဖွင့်၍မရခြင်း၊ ခလုတ်နှိပ်သော်လည်း တုံ့ပြန်မှုမရှိခြင်း",
+    "solution_en": "Try power on with keyboard shortcut, may need button replacement",
+    "solution_my": "Keyboard shortcut ဖြင့် ဖွင့်ကြည့်ပါ၊ Power ခလုတ် အသစ်လဲရန် လိုအပ်နိုင်ပါသည်"
+  },
+  {
+    "id": 35,
+    "category": "Hardware - Laptop",
+    "problem_en": "Hinges very loose",
+    "problem_my": "Laptop Hinge များ အလွန်ချောင်နေခြင်း",
+    "symptoms_en": "Screen wobbles when typing, hinge is wobbly",
+    "symptoms_my": "စာရိုက်နေချိန်တွင် စခရင် ခါရမ်းနေခြင်း၊ Hinge များ လှုပ်ခါနေခြင်း",
+    "solution_en": "Tighten hinge screws carefully, professional repair if severe",
+    "solution_my": "Hinge ဝက်အူများကို ဂရုတစိုက် ကျပ်ပေးပါ၊ ဆိုးရွားပါက ကျွမ်းကျင်သူထံ ပြသပါ"
+  },
+  {
+    "id": 36,
+    "category": "Hardware - Laptop",
+    "problem_en": "Trackpad extremely sensitive",
+    "problem_my": "Laptop Trackpad တုံ့ပြန်မှု အလွန်မြန်လွန်းနေခြင်း",
+    "symptoms_en": "Cursor jumps unexpectedly, accidental clicks",
+    "symptoms_my": "Cursor မထင်မှတ်ဘဲ ခုန်နေခြင်း၊ မရည်ရွယ်ဘဲ Click နှိပ်မိခြင်း",
+    "solution_en": "Adjust trackpad sensitivity in settings, disable palm detection",
+    "solution_my": "Settings တွင် Trackpad sensitivity ကို ချိန်ညှိပါ၊ Palm detection ကို ပိတ်ပါ"
+  },
+  {
+    "id": 37,
+    "category": "Hardware - Laptop",
+    "problem_en": "Won't eject external drive",
+    "problem_my": "ပြင်ပ Drive ကို Eject (ဆွဲထုတ်) လုပ်၍မရခြင်း",
+    "symptoms_en": "Eject button doesn't work, file in use message",
+    "symptoms_my": "Eject ခလုတ် အလုပ်မလုပ်ခြင်း၊ File ကို အသုံးပြုနေသည်ဟု ပြသခြင်း",
+    "solution_en": "Close all file access, force eject via command line",
+    "solution_my": "အသုံးပြုနေသော File များကို ပိတ်ပါ၊ Command line မှ Force eject ပြုလုပ်ပါ"
+  },
+  {
+    "id": 38,
+    "category": "Hardware - Laptop",
+    "problem_en": "Overheating during gaming",
+    "problem_my": "ဂိမ်းဆော့နေချိန် Laptop အလွန်အမင်း ပူလာခြင်း",
+    "symptoms_en": "High temperatures above 90°C, throttling during games",
+    "symptoms_my": "အပူချိန် 90°C ထက် ကျော်လွန်ခြင်း၊ ဂိမ်းဆော့စဉ် ထုတ်လုပ်မှုစွမ်းရည် လျော့ကျသွားခြင်း (Throttling)",
+    "solution_en": "Clean vents, use cooling pad, limit FPS, reapply thermal paste",
+    "solution_my": "လေထွက်ပေါက်များ သန့်ရှင်းပါ၊ Cooling pad သုံးပါ၊ FPS ကန့်သတ်ပါ၊ Thermal paste ပြန်သုတ်ပါ"
+  },
+  {
+    "id": 39,
+    "category": "Hardware - Laptop",
+    "problem_en": "Won't sleep properly",
+    "problem_my": "Laptop မှန်ကန်စွာ Sleep mode မဝင်ခြင်း",
+    "symptoms_en": "MacBook wakes unexpectedly, battery drains while sleeping",
+    "symptoms_my": "မထင်မှတ်ဘဲ ပြန်နိုးလာခြင်း၊ Sleep mode ဝင်ထားစဉ် ဘက်ထရီ ကုန်နေခြင်း",
+    "solution_en": "Check wake timers, disable Bluetooth/WiFi, check BIOS settings",
+    "solution_my": "Wake timers ကို စစ်ဆေးပါ၊ Bluetooth/WiFi ပိတ်ကြည့်ပါ၊ BIOS settings စစ်ဆေးပါ"
+  },
+  {
+    "id": 40,
+    "category": "Hardware - Laptop",
+    "problem_en": "Sudden shutdown when unplugged",
+    "problem_my": "အားသွင်းကြိုး ဖြုတ်လိုက်သည်နှင့် ရုတ်တရက် စက်ပိတ်သွားခြင်း",
+    "symptoms_en": "Instant shutdown when charger disconnected",
+    "symptoms_my": "Charger ကြိုး ဖြုတ်လိုက်သည်နှင့် ချက်ချင်း စက်ပိတ်သွားခြင်း",
+    "solution_en": "Battery is faulty, needs replacement, check power delivery",
+    "solution_my": "ဘက်ထရီ ပျက်စီးနေသဖြင့် အသစ်လဲရန် လိုအပ်ပါသည်၊ Power delivery စနစ်ကို စစ်ဆေးပါ"
+  },
+  {
+    "id": 41,
+    "category": "Hardware - External Devices",
+    "problem_en": "USB flash drive not detected",
+    "problem_my": "USB ဖလက်ရှ်ဒရိုက် အသိအမှတ်မပြု",
+    "symptoms_en": "Drive doesn't appear in File Explorer, no notification on insert",
+    "symptoms_my": "File Explorer တွင် drive မမြင်ရ၊ ချိတ်ဆက်သည့်အခါ အသိပေးချက်မရှိ",
+    "solution_en": "Try a different USB port, test the drive on another PC, check Disk Management for an unallocated drive letter, try a different cable",
+    "solution_my": "အခြား USB port တွင် စမ်းကြည့်ပါ၊ တခြားကွန်ပျူတာတွင် စမ်းကြည့်ပါ၊ Disk Management တွင် drive letter သတ်မှတ်ထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 42,
+    "category": "Hardware - External Devices",
+    "problem_en": "Printer offline or not printing",
+    "problem_my": "ပရင်တာ offline ဖြစ်နေခြင်း (print မထွက်ခြင်း)",
+    "symptoms_en": "Printer shows offline status, print jobs stuck in queue",
+    "symptoms_my": "ပရင်တာသည် offline ပြသနေသည်၊ print job များ queue တွင် ရပ်နေသည်",
+    "solution_en": "Restart the print spooler service, set printer as default, check USB/network connection, reinstall printer driver",
+    "solution_my": "print spooler service ကို ပြန်စတင်ပါ၊ ပရင်တာကို default အဖြစ် သတ်မှတ်ပါ၊ USB/network ဆက်သွယ်မှု စစ်ဆေးပါ"
+  },
+  {
+    "id": 43,
+    "category": "Hardware - External Devices",
+    "problem_en": "Wireless mouse not connecting",
+    "problem_my": "ကြိုးမဲ့ mouse ချိတ်ဆက်၍မရခြင်း",
+    "symptoms_en": "Cursor doesn't move, mouse LED not lighting, pairing fails",
+    "symptoms_my": "ကာဆာမရွေ့၊ mouse LED မလင်း၊ pairing မအောင်မြင်",
+    "solution_en": "Replace batteries, re-plug the USB receiver, remove and re-pair via Bluetooth settings, try another USB port",
+    "solution_my": "ဘက်ထရီအသစ်လဲပါ၊ USB receiver ကို ပြန်ချိတ်ပါ၊ Bluetooth setting တွင် ပြန်တွဲပါ"
+  },
+  {
+    "id": 44,
+    "category": "Hardware - External Devices",
+    "problem_en": "External monitor not detected",
+    "problem_my": "ပြင်ပ monitor အသိအမှတ်မပြု",
+    "symptoms_en": "No signal on external display, Windows doesn't show second screen",
+    "symptoms_my": "ပြင်ပ display တွင် signal မရှိ၊ Windows တွင် screen ဒုတိယခု မပေါ်",
+    "solution_en": "Check HDMI/VGA cable connection, press Windows+P to select display mode, update graphics driver, try a different cable/port",
+    "solution_my": "HDMI/VGA ကြိုးချိတ်ဆက်မှု စစ်ဆေးပါ၊ Windows+P နှိပ်ပြီး display mode ရွေးပါ"
+  },
+  {
+    "id": 45,
+    "category": "Hardware - External Devices",
+    "problem_en": "Webcam not working in video calls",
+    "problem_my": "video call တွင် webcam အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Black screen in camera preview, app shows 'camera not found'",
+    "symptoms_my": "camera preview တွင် အနက်ရောင်ပြသ၊ app တွင် 'camera not found' ပြသ",
+    "solution_en": "Check camera privacy settings allow app access, close other apps using the camera, update webcam driver",
+    "solution_my": "camera privacy setting တွင် app ကို ခွင့်ပြုထားခြင်း ရှိမရှိ စစ်ဆေးပါ၊ webcam အသုံးပြုနေသော အခြား app များကို ပိတ်ပါ"
+  },
+  {
+    "id": 46,
+    "category": "Hardware - External Devices",
+    "problem_en": "External hard drive not recognized",
+    "problem_my": "ပြင်ပ hard drive အသိအမှတ်မပြု",
+    "symptoms_en": "Drive doesn't show up, unusual clicking noise from drive",
+    "symptoms_my": "drive မပေါ်ရှိ၊ drive မှ ပုံမှန်မဟုတ်သော click အသံများ",
+    "solution_en": "Try a different USB port and cable, check Disk Management, if clicking noise is present back up data immediately as the drive may be failing",
+    "solution_my": "အခြား USB port/ကြိုး စမ်းကြည့်ပါ၊ click အသံရှိပါက drive ချို့ယွင်းနိုင်သဖြင့် ချက်ချင်း data backup လုပ်ပါ"
+  },
+  {
+    "id": 47,
+    "category": "Hardware - External Devices",
+    "problem_en": "Headphones or speakers not producing sound",
+    "problem_my": "နားကြပ် (သို့) စပီကာမှ အသံမထွက်ခြင်း",
+    "symptoms_en": "No audio output, device shows as connected but silent",
+    "symptoms_my": "အသံ output မရှိ၊ device ချိတ်ဆက်ပြီးဖြစ်သော်လည်း အသံမထွက်",
+    "solution_en": "Check volume mixer for muted apps, set device as default playback device, update audio driver, test with another device",
+    "solution_my": "volume mixer တွင် mute ဖြစ်နေသော app ရှိမရှိ စစ်ဆေးပါ၊ device ကို default playback device အဖြစ် သတ်မှတ်ပါ"
+  },
+  {
+    "id": 48,
+    "category": "Hardware - External Devices",
+    "problem_en": "Scanner not detected by computer",
+    "problem_my": "scanner ကို ကွန်ပျူတာက အသိအမှတ်မပြု",
+    "symptoms_en": "Scanning software can't find scanner, device missing from Devices list",
+    "symptoms_my": "scan software က scanner ကိုရှာမတွေ့၊ Devices list တွင် ပျောက်နေသည်",
+    "solution_en": "Check USB/network connection, reinstall scanner driver and software, restart the WIA/scanner service in Windows",
+    "solution_my": "USB/network ဆက်သွယ်မှု စစ်ဆေးပါ၊ scanner driver ကို ပြန်တင်ပါ"
+  },
+  {
+    "id": 49,
+    "category": "Hardware - External Devices",
+    "problem_en": "External SSD/HDD runs very slow",
+    "problem_my": "ပြင်ပ SSD/HDD အလွန်နှေးခြင်း",
+    "symptoms_en": "File transfer takes very long, drive feels sluggish compared to before",
+    "symptoms_my": "file transfer အချိန်ကြာမြင့်၊ ယခင်ကထက် drive နှေးလာသည်",
+    "solution_en": "Check the USB standard being used (USB 2.0 vs 3.0 port/cable), run CHKDSK to check for errors, check drive health with manufacturer tool",
+    "solution_my": "USB port/ကြိုး ဗားရှင်း (2.0 or 3.0) စစ်ဆေးပါ၊ CHKDSK ဖြင့် drive error များ စစ်ဆေးပါ"
+  },
+  {
+    "id": 50,
+    "category": "Hardware - External Devices",
+    "problem_en": "Bluetooth device won't pair",
+    "problem_my": "Bluetooth device တွဲ၍မရခြင်း",
+    "symptoms_en": "Device found in scan but pairing fails or times out",
+    "symptoms_my": "scan တွင် device တွေ့သော်လည်း pairing မအောင်မြင် (သို့) အချိန်ကုန်သွားသည်",
+    "solution_en": "Turn Bluetooth off and on again, remove device and re-pair, make sure device is in pairing mode, update Bluetooth driver",
+    "solution_my": "Bluetooth ကို ပိတ်ပြီးပြန်ဖွင့်ပါ၊ device ကို ဖြုတ်ပြီး ပြန်တွဲပါ"
+  },
+  {
+    "id": 51,
+    "category": "Hardware - External Devices",
+    "problem_en": "USB hub not powering connected devices",
+    "problem_my": "USB hub က ချိတ်ဆက်ထားသော device များကို လျှပ်စစ်မထောက်ပံ့ခြင်း",
+    "symptoms_en": "Devices plugged into hub don't turn on or aren't recognized",
+    "symptoms_my": "hub တွင်ချိတ်ထားသော device များ မလည်ပတ် (သို့) အသိအမှတ်မပြု",
+    "solution_en": "Use a powered USB hub for high-power devices, connect directly to the PC to test, check hub's own power adapter",
+    "solution_my": "လျှပ်စစ်ကိုယ်ပိုင်ရသော USB hub သုံးပါ၊ ကွန်ပျူတာသို့ တိုက်ရိုက်ချိတ်ကြည့်ပါ"
+  },
+  {
+    "id": 52,
+    "category": "Hardware - External Devices",
+    "problem_en": "Game controller not recognized by PC",
+    "problem_my": "game controller ကို PC က အသိအမှတ်မပြု",
+    "symptoms_en": "Controller doesn't respond in-game, not listed in Devices and Printers",
+    "symptoms_my": "controller သည် game ထဲတွင် တုံ့ပြန်မှုမရှိ၊ Devices and Printers တွင် မပါ",
+    "solution_en": "Try a different USB port, install/update controller driver, check battery level for wireless controllers",
+    "solution_my": "အခြား USB port စမ်းကြည့်ပါ၊ controller driver ကို install/update လုပ်ပါ"
+  },
+  {
+    "id": 53,
+    "category": "Software - Windows",
+    "problem_en": "Windows stuck on updating screen",
+    "problem_my": "Windows update လုပ်နေစဉ် screen တွင် ရပ်နေခြင်း",
+    "symptoms_en": "Progress percentage frozen for a long time, can't cancel",
+    "symptoms_my": "progress ရာခိုင်နှုန်း ကြာမြင့်စွာ ရပ်နေသည်၊ cancel မရ",
+    "solution_en": "Wait at least 1-2 hours for large updates, if truly frozen force shutdown and it should roll back automatically on restart",
+    "solution_my": "large update များအတွက် အနည်းဆုံး ၁-၂ နာရီ စောင့်ကြည့်ပါ၊ တကယ်ရပ်နေပါက force shutdown လုပ်ပါ"
+  },
+  {
+    "id": 54,
+    "category": "Software - Windows",
+    "problem_en": "Blue screen error (BSOD)",
+    "problem_my": "Blue screen error (BSOD) ပေါ်ခြင်း",
+    "symptoms_en": "System crashes to a blue screen with an error code, then restarts",
+    "symptoms_my": "error code ပါသော blue screen ပေါ်ပြီး ပြန်စတင်သွားသည်",
+    "solution_en": "Note the error code shown, update graphics/chipset drivers, run Windows Memory Diagnostic, check for recently installed hardware/software causing conflict",
+    "solution_my": "ပြသထားသော error code ကို မှတ်ထားပါ၊ graphics/chipset driver များ update လုပ်ပါ"
+  },
+  {
+    "id": 55,
+    "category": "Software - Windows",
+    "problem_en": "Windows won't boot, shows black screen after logo",
+    "problem_my": "Windows logo ပြီးနောက် black screen ဖြစ်ကာ boot မဝင်ခြင်း",
+    "symptoms_en": "System hangs on black screen with or without cursor after Windows logo",
+    "symptoms_my": "Windows logo ပြီးနောက် ကာဆာပါ/မပါ black screen တွင် ရပ်နေသည်",
+    "solution_en": "Boot into Safe Mode via recovery options, uninstall recent updates or graphics driver, run Startup Repair from installation media",
+    "solution_my": "recovery option မှ Safe Mode ဖြင့် boot ဝင်ပါ၊ မကြာသေးမီ update/driver ကို uninstall လုပ်ပါ"
+  },
+  {
+    "id": 56,
+    "category": "Software - Windows",
+    "problem_en": "High disk usage at 100% slowing down PC",
+    "problem_my": "disk usage 100% ဖြစ်နေပြီး PC နှေးခြင်း",
+    "symptoms_en": "Task Manager shows disk at 100%, system feels sluggish",
+    "symptoms_my": "Task Manager တွင် disk 100% ပြသ၊ system နှေးကွေးနေသည်",
+    "solution_en": "Disable Windows Search indexing temporarily, check for malware, disable SuperFetch/SysMain service, update storage driver",
+    "solution_my": "Windows Search indexing ကို ယာယီပိတ်ပါ၊ malware ရှိမရှိ စစ်ဆေးပါ၊ SysMain service ကို ပိတ်ကြည့်ပါ"
+  },
+  {
+    "id": 57,
+    "category": "Software - Windows",
+    "problem_en": "Windows activation not genuine error",
+    "problem_my": "Windows 'not genuine' activation error ပြသခြင်း",
+    "symptoms_en": "Watermark on desktop, activation status shows not activated",
+    "symptoms_my": "desktop တွင် watermark ပေါ်နေသည်၊ activation status တွင် not activated ဟုပြသ",
+    "solution_en": "Go to Settings > Activation, run the troubleshooter, or enter a valid product key; contact the seller if key was purchased and doesn't work",
+    "solution_my": "Settings > Activation သို့သွားပြီး troubleshooter ကို run ပါ (သို့) valid product key ထည့်ပါ"
+  },
+  {
+    "id": 58,
+    "category": "Software - Windows",
+    "problem_en": "File Explorer keeps crashing or freezing",
+    "problem_my": "File Explorer အမြဲတိုက်ဆိုင်ကျခြင်း (သို့) ရပ်နေခြင်း",
+    "symptoms_en": "Explorer.exe restarts unexpectedly, taskbar disappears briefly",
+    "symptoms_my": "Explorer.exe အလိုအလျောက် ပြန်စတင်နေသည်၊ taskbar ခေတ္တပျောက်သွားသည်",
+    "solution_en": "Restart explorer.exe via Task Manager, clear File Explorer history, disable problematic shell extensions, check for corrupted system files with sfc /scannow",
+    "solution_my": "Task Manager မှ explorer.exe ကို ပြန်စတင်ပါ၊ sfc /scannow ဖြင့် system file များ စစ်ဆေးပါ"
+  },
+  {
+    "id": 59,
+    "category": "Software - Windows",
+    "problem_en": "Windows Search not working",
+    "problem_my": "Windows Search အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Search bar returns no results, search box is unresponsive",
+    "symptoms_my": "search bar တွင် ရလဒ်မပေါ်၊ search box တုံ့ပြန်မှုမရှိ",
+    "solution_en": "Restart Windows Search service, rebuild the search index in Indexing Options, restart Cortana/Search process via Task Manager",
+    "solution_my": "Windows Search service ကို ပြန်စတင်ပါ၊ Indexing Options တွင် index ကို ပြန်တည်ဆောက်ပါ"
+  },
+  {
+    "id": 60,
+    "category": "Software - Windows",
+    "problem_en": "Taskbar or Start Menu not responding",
+    "problem_my": "Taskbar (သို့) Start Menu တုံ့ပြန်မှုမရှိခြင်း",
+    "symptoms_en": "Clicking Start does nothing, taskbar icons unclickable",
+    "symptoms_my": "Start ကိုနှိပ်လျှင် ဘာမှမဖြစ်၊ taskbar icon များ နှိပ်၍မရ",
+    "solution_en": "Restart Windows Explorer process via Task Manager, run a PowerShell command to re-register the Start Menu, restart the PC",
+    "solution_my": "Task Manager မှ Windows Explorer process ကို ပြန်စတင်ပါ"
+  },
+  {
+    "id": 61,
+    "category": "Software - Windows",
+    "problem_en": "Program says 'not responding'",
+    "problem_my": "program တွင် 'not responding' ဟုပြသခြင်း",
+    "symptoms_en": "Application window greys out, title bar shows (Not Responding)",
+    "symptoms_my": "app window မှိန်သွားသည်၊ title bar တွင် (Not Responding) ပြသ",
+    "solution_en": "Wait briefly as it may recover, otherwise end the task via Task Manager, check for pending updates for that application",
+    "solution_my": "အချိန်အနည်းငယ်စောင့်ကြည့်ပါ၊ မရလျှင် Task Manager မှ end task လုပ်ပါ"
+  },
+  {
+    "id": 62,
+    "category": "Software - Windows",
+    "problem_en": "Missing DLL file error when opening a program",
+    "problem_my": "program ဖွင့်သောအခါ DLL file ပျောက်နေကြောင်း error ပြသခြင်း",
+    "symptoms_en": "Error message names a specific .dll file that is missing",
+    "symptoms_my": "error message တွင် ပျောက်နေသော .dll file အမည် ဖော်ပြထားသည်",
+    "solution_en": "Reinstall the application, install Microsoft Visual C++ Redistributable packages, run sfc /scannow to fix system files",
+    "solution_my": "application ကို ပြန်တင်ပါ၊ Visual C++ Redistributable ကို install လုပ်ပါ"
+  },
+  {
+    "id": 63,
+    "category": "Software - Windows",
+    "problem_en": "Windows Defender / Antivirus blocking a safe program",
+    "problem_my": "Windows Defender / Antivirus က ဘေးမဲ့သော program ကို ပိတ်ပင်ခြင်း",
+    "symptoms_en": "Program deleted or quarantined immediately after download or run",
+    "symptoms_my": "download (သို့) run လုပ်ပြီးချင်း program ကို ချက်ချင်းဖျက် (သို့) quarantine လုပ်ခံရသည်",
+    "solution_en": "Add an exclusion for the trusted file/folder in Windows Security settings, verify the file source is genuinely trustworthy first",
+    "solution_my": "Windows Security setting တွင် ယုံကြည်ရသော file/folder အတွက် exclusion ထည့်ပါ"
+  },
+  {
+    "id": 64,
+    "category": "Software - Windows",
+    "problem_en": "Sound suddenly stopped working after an update",
+    "problem_my": "update လုပ်ပြီးနောက် အသံရုတ်တရက်ပျောက်သွားခြင်း",
+    "symptoms_en": "No audio from any app or device after a Windows update",
+    "symptoms_my": "Windows update ပြီးနောက် app (သို့) device မှ အသံလုံးဝမရ",
+    "solution_en": "Roll back the audio driver, check default playback device in Sound settings, run the Windows audio troubleshooter",
+    "solution_my": "audio driver ကို ယခင်ဗားရှင်းသို့ ပြန်ပြောင်းပါ၊ Sound setting တွင် default device စစ်ဆေးပါ"
+  },
+  {
+    "id": 65,
+    "category": "Software - Windows",
+    "problem_en": "System Restore not working",
+    "problem_my": "System Restore အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Restore fails partway through or shows an error and reverts",
+    "symptoms_my": "restore လုပ်နေစဉ် error ပေါ်ပြီး ပြန်ရုတ်သိမ်းသွားသည်",
+    "solution_en": "Try a different, earlier restore point, run in Safe Mode, ensure enough free disk space is available",
+    "solution_my": "အစောပိုင်း restore point တစ်ခုကို ပြန်စမ်းပါ၊ Safe Mode ထဲမှ လုပ်ကြည့်ပါ"
+  },
+  {
+    "id": 66,
+    "category": "Software - Windows",
+    "problem_en": "Laptop screen resolution wrong or blurry text",
+    "problem_my": "screen resolution မှားနေခြင်း (သို့) စာသားမှုန်နေခြင်း",
+    "symptoms_en": "Icons and text appear too large, small, or blurry",
+    "symptoms_my": "icon နှင့် စာသားများ ကြီးလွန်း/သေးလွန်း/မှုန်လွန်းနေသည်",
+    "solution_en": "Go to Display Settings and select the recommended resolution, adjust the scaling percentage, update the graphics driver",
+    "solution_my": "Display Settings တွင် recommended resolution ကို ရွေးပါ၊ scaling ရာခိုင်နှုန်း ချိန်ညှိပါ"
+  },
+  {
+    "id": 67,
+    "category": "Software - Windows",
+    "problem_en": "Windows license key not accepted",
+    "problem_my": "Windows license key လက်ခံမှုမရှိခြင်း",
+    "symptoms_en": "Error message says the key is invalid or already in use",
+    "symptoms_my": "key မမှန်ကန် (သို့) အသုံးပြုပြီးသား ဖြစ်ကြောင်း error ပြသ",
+    "solution_en": "Double check the key was typed correctly, confirm the Windows edition matches the key, contact Microsoft support if the key was legitimately purchased",
+    "solution_my": "key ကို မှန်ကန်စွာ ရိုက်ထည့်ထားခြင်း ရှိမရှိ ပြန်စစ်ပါ၊ Windows edition ကိုက်ညီမှု ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 68,
+    "category": "Software - Windows",
+    "problem_en": "Random reboots or crashes only in specific applications",
+    "problem_my": "အချို့ application များတွင်သာ ရုတ်တရက်ပြန်စတင် (သို့) ချိုးဆုံးခြင်း",
+    "symptoms_en": "Crash happens consistently with one program but not others",
+    "symptoms_my": "program တစ်ခုတည်းတွင်သာ အမြဲတိုက်ဆိုင် crash ဖြစ်နေသည်",
+    "solution_en": "Update or reinstall that specific application, check for compatibility mode requirements, look at Event Viewer for the exact error",
+    "solution_my": "အဆိုပါ application ကို update/ပြန်တင်ပါ၊ compatibility mode လိုအပ်ခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 69,
+    "category": "Software - Windows",
+    "problem_en": "Cannot uninstall a program",
+    "problem_my": "program တစ်ခုကို uninstall မလုပ်နိုင်ခြင်း",
+    "symptoms_en": "Uninstall button greyed out or process fails with an error",
+    "symptoms_my": "uninstall ခလုတ် မှိန်နေခြင်း (သို့) error ဖြင့် မအောင်မြင်ခြင်း",
+    "solution_en": "Use Microsoft's official Program Install and Uninstall troubleshooter, try uninstalling from Safe Mode, manually remove leftover registry entries with caution",
+    "solution_my": "Microsoft ၏ တရားဝင် troubleshooter ကို အသုံးပြုပါ၊ Safe Mode မှ uninstall ကြိုးစားကြည့်ပါ"
+  },
+  {
+    "id": 70,
+    "category": "Software - Windows",
+    "problem_en": "Windows shows wrong date and time",
+    "problem_my": "Windows တွင် နေ့စွဲ/အချိန် မှားယွင်းနေခြင်း",
+    "symptoms_en": "Clock resets every time the PC restarts, time is inaccurate",
+    "symptoms_my": "PC ပြန်စတင်တိုင်း အချိန်ပြန်ချိန်ပေးရခြင်း၊ အချိန်မှန်ကန်မှုမရှိ",
+    "solution_en": "Enable 'Set time automatically' in Date & Time settings, replace the CMOS battery on the motherboard if the issue persists",
+    "solution_my": "Date & Time setting တွင် 'Set time automatically' ကို ဖွင့်ပါ၊ ပြဿနာဆက်ရှိပါက CMOS battery လဲပါ"
+  },
+  {
+    "id": 71,
+    "category": "Software - macOS",
+    "problem_en": "Mac stuck on Apple logo during startup",
+    "problem_my": "Mac စတင်စဉ် Apple logo တွင် ရပ်နေခြင်း",
+    "symptoms_en": "Apple logo appears but progress bar doesn't move or system never boots",
+    "symptoms_my": "Apple logo ပေါ်သော်လည်း progress bar မရွေ့ (သို့) boot လုံးဝမဝင်",
+    "solution_en": "Boot into Safe Mode (hold Shift), reset NVRAM/PRAM (Option+Cmd+P+R), reinstall macOS via Recovery Mode if the issue persists",
+    "solution_my": "Safe Mode ဖြင့် boot ဝင်ပါ (Shift ကိုင်ထားပါ)၊ NVRAM ကို reset လုပ်ပါ"
+  },
+  {
+    "id": 72,
+    "category": "Software - macOS",
+    "problem_en": "MacBook running slow after macOS update",
+    "problem_my": "macOS update ပြီးနောက် MacBook နှေးလာခြင်း",
+    "symptoms_en": "Noticeable slowdown, high CPU usage from background processes",
+    "symptoms_my": "သိသိသာသာ နှေးလာသည်၊ နောက်ခံ process များမှ CPU အသုံးမြင့်နေသည်",
+    "solution_en": "Allow Spotlight to finish re-indexing after update (can take hours), check Activity Monitor for runaway processes, restart the Mac",
+    "solution_my": "update ပြီးနောက် Spotlight ပြန် index လုပ်ပြီးအောင် စောင့်ပါ (နာရီအနည်းငယ်ကြာနိုင်)"
+  },
+  {
+    "id": 73,
+    "category": "Software - macOS",
+    "problem_en": "Spinning beach ball appears frequently",
+    "problem_my": "spinning beach ball အကြိမ်ကြိမ်ပေါ်နေခြင်း",
+    "symptoms_en": "Cursor turns into a colorful spinning wheel and freezes the app",
+    "symptoms_my": "ကာဆာသည် အရောင်စုံ လှည့်နေသော ဘီးအဖြစ် ပြောင်းသွားပြီး app ရပ်သွားသည်",
+    "solution_en": "Force quit the unresponsive app via Force Quit menu, check Activity Monitor for high CPU/memory usage, restart the Mac",
+    "solution_my": "Force Quit menu မှ တုံ့ပြန်မှုမရှိသော app ကို ပိတ်ပါ၊ Activity Monitor တွင် စစ်ဆေးပါ"
+  },
+  {
+    "id": 74,
+    "category": "Software - macOS",
+    "problem_en": "Mac storage full even after deleting files",
+    "problem_my": "file များဖျက်ပြီးသော်လည်း Mac storage ပြည့်နေဆဲဖြစ်ခြင်း",
+    "symptoms_en": "'Storage Almost Full' warning persists, About This Mac shows little free space",
+    "symptoms_my": "'Storage Almost Full' သတိပေးချက် ဆက်ပေါ်နေသည်",
+    "solution_en": "Empty the Trash, clear system cache and old backups via Storage Management (About This Mac > Storage > Manage), delete large unused files",
+    "solution_my": "Trash ကို ရှင်းပါ၊ Storage Management မှ cache နှင့် backup အဟောင်းများ ရှင်းပါ"
+  },
+  {
+    "id": 75,
+    "category": "Software - macOS",
+    "problem_en": "App Store won't download or update apps",
+    "problem_my": "App Store တွင် app များ download/update မရခြင်း",
+    "symptoms_en": "Download stuck at 'Waiting', error message when updating",
+    "symptoms_my": "download သည် 'Waiting' တွင်ရပ်နေသည်",
+    "solution_en": "Sign out and back into the Apple ID in System Settings, restart the Mac, check date and time are set correctly",
+    "solution_my": "System Settings တွင် Apple ID ကို sign out ပြီး ပြန် sign in ပါ"
+  },
+  {
+    "id": 76,
+    "category": "Software - macOS",
+    "problem_en": "Mac won't connect to WiFi",
+    "problem_my": "Mac WiFi ချိတ်ဆက်၍မရခြင်း",
+    "symptoms_en": "WiFi icon shows no available networks, or connects but no internet",
+    "symptoms_my": "WiFi icon တွင် network များ မပေါ် (သို့) ချိတ်ဆက်သော်လည်း အင်တာနက်မရ",
+    "solution_en": "Turn WiFi off and on, remove and re-add the network in System Settings, delete the network's stored password and reconnect",
+    "solution_my": "WiFi ကိုပိတ်ပြီးပြန်ဖွင့်ပါ၊ System Settings တွင် network ကို ဖျက်ပြီး ပြန်ထည့်ပါ"
+  },
+  {
+    "id": 77,
+    "category": "Software - macOS",
+    "problem_en": "Time Machine backup fails",
+    "problem_my": "Time Machine backup မအောင်မြင်ခြင်း",
+    "symptoms_en": "Backup stops midway with an error, or never starts",
+    "symptoms_my": "backup သည် တစ်ဝက်တွင် error ဖြင့် ရပ်သွားသည်",
+    "solution_en": "Check the backup drive has enough free space and is properly connected, verify the disk in Disk Utility, try a different backup drive",
+    "solution_my": "backup drive တွင် နေရာလုံလောက်မှုနှင့် ချိတ်ဆက်မှု စစ်ဆေးပါ"
+  },
+  {
+    "id": 78,
+    "category": "Software - macOS",
+    "problem_en": "Mac keyboard shortcuts not working",
+    "problem_my": "Mac keyboard shortcut များ အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Common shortcuts like Cmd+C or Cmd+V don't respond",
+    "symptoms_my": "Cmd+C, Cmd+V ကဲ့သို့ shortcut များ တုံ့ပြန်မှုမရှိ",
+    "solution_en": "Check keyboard shortcut settings haven't been changed in System Settings, restart the Mac, test with an external keyboard",
+    "solution_my": "System Settings တွင် keyboard shortcut ပြောင်းလဲထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 79,
+    "category": "Software - macOS",
+    "problem_en": "Safari running slow or crashing",
+    "problem_my": "Safari နှေးနေခြင်း (သို့) ချိုးဆုံးနေခြင်း",
+    "symptoms_en": "Pages load slowly, browser freezes or quits unexpectedly",
+    "symptoms_my": "စာမျက်နှာများ နှေးနှေးဖွင့်ရသည်၊ browser ရပ် (သို့) ရုတ်တရက် ပိတ်သွားသည်",
+    "solution_en": "Clear Safari's cache and website data, disable unnecessary extensions, update to the latest Safari version",
+    "solution_my": "Safari ၏ cache နှင့် website data ကို ရှင်းပါ၊ မလိုအပ်သော extension များပိတ်ပါ"
+  },
+  {
+    "id": 80,
+    "category": "Software - macOS",
+    "problem_en": "Mac fan running loud constantly",
+    "problem_my": "Mac fan အမြဲတမ်း ကျယ်လောင်စွာ မြည်နေခြင်း",
+    "symptoms_en": "Fan noise even during light usage, Mac feels warm",
+    "symptoms_my": "အသုံးပြုမှုနည်းနေချိန်တွင်ပင် fan အသံကျယ်နေသည်",
+    "solution_en": "Check Activity Monitor for a process using excessive CPU, close unused browser tabs, clean dust from vents if the Mac is older",
+    "solution_my": "Activity Monitor တွင် CPU များစွာသုံးနေသော process ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 81,
+    "category": "Software - macOS",
+    "problem_en": "Bluetooth devices disconnecting randomly on Mac",
+    "problem_my": "Mac တွင် Bluetooth device များ ရုတ်တရက်ဖြတ်တောက်နေခြင်း",
+    "symptoms_en": "AirPods or mouse disconnect and reconnect repeatedly",
+    "symptoms_my": "AirPods (သို့) mouse ဖြတ်တောက်ပြီး ပြန်ချိတ်နေခြင်း ထပ်ခါထပ်ခါ ဖြစ်နေသည်",
+    "solution_en": "Remove the Bluetooth module preference file and restart, reduce WiFi interference by changing WiFi channel, keep devices closer to the Mac",
+    "solution_my": "Bluetooth module preference file ကို ဖျက်ပြီး Mac ကို restart လုပ်ပါ"
+  },
+  {
+    "id": 82,
+    "category": "Software - macOS",
+    "problem_en": "Mac won't wake from sleep",
+    "problem_my": "Mac sleep mode မှ နိုးမလာခြင်း",
+    "symptoms_en": "Screen stays black when lid is opened or mouse is moved",
+    "symptoms_my": "lid ဖွင့် (သို့) mouse ရွေ့သောအခါ screen အနက်ရောင်ဆက်ဖြစ်နေသည်",
+    "solution_en": "Force a restart by holding the power button, reset NVRAM/SMC, check for pending macOS updates",
+    "solution_my": "power button ကို ကိုင်ထားပြီး force restart လုပ်ပါ၊ NVRAM/SMC ကို reset လုပ်ပါ"
+  },
+  {
+    "id": 83,
+    "category": "Software - macOS",
+    "problem_en": "Migration Assistant transfer fails or freezes",
+    "problem_my": "Migration Assistant data ကူးပြောင်းမှု မအောင်မြင် (သို့) ရပ်နေခြင်း",
+    "symptoms_en": "Progress bar stalls for a very long time or transfer errors out",
+    "symptoms_my": "progress bar ကြာမြင့်စွာ ရပ်နေခြင်း (သို့) error ဖြင့် ရပ်သွားခြင်း",
+    "solution_en": "Use a direct cable connection instead of WiFi for faster/more stable transfer, ensure both Macs are updated to compatible macOS versions",
+    "solution_my": "WiFi အစား ကြိုးဖြင့် တိုက်ရိုက်ချိတ်ဆက်ပြီး ကူးပါ"
+  },
+  {
+    "id": 84,
+    "category": "Software - Linux",
+    "problem_en": "Linux system won't boot after update",
+    "problem_my": "update ပြီးနောက် Linux system boot မဝင်ခြင်း",
+    "symptoms_en": "Kernel panic message or drops to a black screen with text",
+    "symptoms_my": "kernel panic message ပေါ် (သို့) စာသားများပါသော black screen တွင် ကျန်နေသည်",
+    "solution_en": "Boot into an older kernel version from the GRUB menu, check logs with journalctl, reinstall the affected kernel package",
+    "solution_my": "GRUB menu မှ kernel ဗားရှင်းအဟောင်းဖြင့် boot ဝင်ပါ"
+  },
+  {
+    "id": 85,
+    "category": "Software - Linux",
+    "problem_en": "No sound on Linux after installation",
+    "problem_my": "Linux install ပြီးနောက် အသံလုံးဝမရခြင်း",
+    "symptoms_en": "Audio device shown in settings but no sound output, mixer sliders unresponsive",
+    "symptoms_my": "audio device settings တွင်ပေါ်သော်လည်း အသံမထွက်၊ mixer slider များ တုံ့ပြန်မှုမရှိ",
+    "solution_en": "Check the correct output device is selected in sound settings, install/reinstall ALSA or PulseAudio, run alsamixer to check muted channels",
+    "solution_my": "sound setting တွင် output device မှန်ကန်စွာ ရွေးထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 86,
+    "category": "Software - Linux",
+    "problem_en": "WiFi adapter not detected on Linux",
+    "problem_my": "Linux တွင် WiFi adapter အသိအမှတ်မပြု",
+    "symptoms_en": "No WiFi networks listed, 'lspci' doesn't show wireless card properly",
+    "symptoms_my": "WiFi network စာရင်းမပေါ်၊ 'lspci' က wireless card ကို ကောင်းစွာ မပြသ",
+    "solution_en": "Install proprietary WiFi drivers for the specific chipset, check if the driver module needs to be manually loaded with modprobe",
+    "solution_my": "chipset အတွက် proprietary WiFi driver ကို install လုပ်ပါ"
+  },
+  {
+    "id": 87,
+    "category": "Software - Linux",
+    "problem_en": "Package manager shows dependency conflicts",
+    "problem_my": "package manager တွင် dependency conflict ပြသခြင်း",
+    "symptoms_en": "apt/dnf/pacman refuses to install due to unmet dependencies",
+    "symptoms_my": "dependency မပြည့်စုံသဖြင့် apt/dnf/pacman က install လုပ်ခွင့်မပေး",
+    "solution_en": "Run the package manager's fix-broken command (e.g. apt --fix-broken install), update package lists first, remove conflicting packages manually",
+    "solution_my": "package manager ၏ fix-broken command ကို run ပါ (ဥပမာ apt --fix-broken install)"
+  },
+  {
+    "id": 88,
+    "category": "Software - Linux",
+    "problem_en": "Linux desktop environment crashes to login screen",
+    "problem_my": "Linux desktop environment crash ဖြစ်ပြီး login screen ပြန်ရောက်ခြင်း",
+    "symptoms_en": "Screen flickers and returns to the login/greeter screen after logging in",
+    "symptoms_my": "login ဝင်ပြီးနောက် screen တုန်ခါပြီး login screen ပြန်ရောက်သွားသည်",
+    "solution_en": "Check ~/.xsession-errors log for the cause, try logging into a different desktop environment session, reinstall the display manager",
+    "solution_my": "~/.xsession-errors log ကို စစ်ဆေးပါ၊ desktop environment တခြားတစ်ခုဖြင့် login ကြိုးစားကြည့်ပါ"
+  },
+  {
+    "id": 89,
+    "category": "Software - Linux",
+    "problem_en": "Permission denied errors when running commands",
+    "problem_my": "command run လိုက်သောအခါ permission denied error ပေါ်ခြင်း",
+    "symptoms_en": "Terminal shows 'Permission denied' for files or commands",
+    "symptoms_my": "terminal တွင် file/command များအတွက် 'Permission denied' ပြသ",
+    "solution_en": "Use sudo for commands that need elevated privileges, check file ownership with ls -l and correct with chown/chmod as needed",
+    "solution_my": "elevated privilege လိုသော command များတွင် sudo သုံးပါ"
+  },
+  {
+    "id": 90,
+    "category": "Software - Linux",
+    "problem_en": "External drive won't mount on Linux",
+    "problem_my": "Linux တွင် ပြင်ပ drive mount မဝင်ခြင်း",
+    "symptoms_en": "Drive appears in disk list but clicking doesn't mount it, or mount errors out",
+    "symptoms_my": "drive list တွင်ပေါ်သော်လည်း နှိပ်ပြီး mount မဝင်",
+    "solution_en": "Check the filesystem type is supported (install ntfs-3g for NTFS drives), try mounting manually with the mount command in terminal to see the error",
+    "solution_my": "filesystem type ထောက်ခံမှု ရှိမရှိ စစ်ဆေးပါ (NTFS အတွက် ntfs-3g install လုပ်ပါ)"
+  },
+  {
+    "id": 91,
+    "category": "Software - Linux",
+    "problem_en": "System freezes randomly under load",
+    "problem_my": "load များချိန်တွင် system ရုတ်တရက်ရပ်နေခြင်း",
+    "symptoms_en": "Entire system becomes unresponsive during heavy tasks like compiling or gaming",
+    "symptoms_my": "compile လုပ်ခြင်း/game ကစားခြင်းကဲ့သို့ task များအတွင်း system အားလုံး တုံ့ပြန်မှုမရှိတော့ပါ",
+    "solution_en": "Check system temperature and cooling, review dmesg logs for hardware errors, test RAM with memtest86+",
+    "solution_my": "system အပူချိန်နှင့် အအေးခံမှု စစ်ဆေးပါ၊ dmesg log များတွင် hardware error ရှာပါ"
+  },
+  {
+    "id": 92,
+    "category": "Software - Linux",
+    "problem_en": "GRUB bootloader missing after installing Windows alongside Linux",
+    "problem_my": "Linux နှင့် Windows dual boot လုပ်ပြီးနောက် GRUB bootloader ပျောက်ခြင်း",
+    "symptoms_en": "PC boots directly to Windows, no option to select Linux",
+    "symptoms_my": "PC သည် Windows သို့ တိုက်ရိုက်ဝင်သွားသည်၊ Linux ရွေးရန် option မရှိ",
+    "solution_en": "Boot from a Linux live USB and reinstall GRUB using boot-repair tool or manual chroot commands",
+    "solution_my": "Linux live USB ဖြင့် boot ဝင်ပြီး boot-repair tool သုံး၍ GRUB ကို ပြန် install လုပ်ပါ"
+  },
+  {
+    "id": 93,
+    "category": "Software - Linux",
+    "problem_en": "Terminal command not found error",
+    "problem_my": "terminal တွင် command not found error ပေါ်ခြင်း",
+    "symptoms_en": "Running a known command returns 'command not found'",
+    "symptoms_my": "လူသိများသော command ကို run လိုက်လျှင် 'command not found' ပြန်ပေးသည်",
+    "solution_en": "Check if the required package is installed, verify the PATH environment variable includes the program's location",
+    "solution_my": "လိုအပ်သော package install လုပ်ထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 94,
+    "category": "Software - Linux",
+    "problem_en": "Screen tearing or graphical glitches on Linux",
+    "problem_my": "Linux တွင် screen tearing (သို့) graphic glitch ဖြစ်ခြင်း",
+    "symptoms_en": "Visible tearing during video playback or scrolling, visual artifacts",
+    "symptoms_my": "video ကြည့်ချိန် (သို့) scroll လုပ်ချိန် screen ဖြတ်ကွဲသကဲ့သို့ ပေါ်နေသည်",
+    "solution_en": "Install proper GPU drivers (proprietary NVIDIA/AMD drivers instead of open-source ones if needed), enable compositor settings",
+    "solution_my": "GPU driver မှန်ကန်စွာ install လုပ်ပါ (NVIDIA/AMD proprietary driver)"
+  },
+  {
+    "id": 95,
+    "category": "Software - Linux",
+    "problem_en": "High memory usage with swap constantly used",
+    "problem_my": "memory usage မြင့်ပြီး swap ကို အမြဲသုံးနေခြင်း",
+    "symptoms_en": "System becomes slow, swap usage climbs even with light tasks",
+    "symptoms_my": "system နှေးလာသည်၊ task သေးငယ်သော်လည်း swap usage တက်လာသည်",
+    "solution_en": "Check running processes with 'top' or 'htop' for memory leaks, add more RAM if consistently needed, adjust swappiness value",
+    "solution_my": "'top' (သို့) 'htop' ဖြင့် memory leak ရှိသော process များ စစ်ဆေးပါ"
+  },
+  {
+    "id": 96,
+    "category": "Software - Linux",
+    "problem_en": "Cannot connect to Bluetooth device on Linux",
+    "problem_my": "Linux တွင် Bluetooth device ချိတ်ဆက်၍မရခြင်း",
+    "symptoms_en": "Bluetooth service running but device pairing fails repeatedly",
+    "symptoms_my": "Bluetooth service run နေသော်လည်း device pairing ထပ်ခါထပ်ခါ မအောင်မြင်",
+    "solution_en": "Restart the bluetooth service, remove the device from paired list and re-pair, check bluetoothctl for detailed error output",
+    "solution_my": "bluetooth service ကို restart လုပ်ပါ၊ paired list မှ device ကို ဖြုတ်ပြီး ပြန်တွဲပါ"
+  },
+  {
+    "id": 97,
+    "category": "Software - General",
+    "problem_en": "Application won't open at all",
+    "problem_my": "application လုံးဝ ဖွင့်၍မရခြင်း",
+    "symptoms_en": "Double-clicking the icon does nothing, no error message appears",
+    "symptoms_my": "icon ကို နှစ်ချက်နှိပ်လျှင် ဘာမှမဖြစ်၊ error message လည်းမပေါ်",
+    "solution_en": "Check Task Manager to see if it's already running in the background, reinstall the application, check for OS compatibility",
+    "solution_my": "Task Manager တွင် နောက်ခံတွင် run နေပြီးသားလား စစ်ဆေးပါ၊ application ကို ပြန်တင်ကြည့်ပါ"
+  },
+  {
+    "id": 98,
+    "category": "Software - General",
+    "problem_en": "Software license or activation key rejected",
+    "problem_my": "software license (သို့) activation key ကို လက်ခံခြင်းမရှိ",
+    "symptoms_en": "Error saying key is invalid, expired, or already used on maximum devices",
+    "symptoms_my": "key မှားနေခြင်း၊ သက်တမ်းကုန်ခြင်း (သို့) device အများဆုံးအရေအတွက်တွင် သုံးပြီးသားဖြစ်ကြောင်း error ပြသ",
+    "solution_en": "Verify the key was typed exactly as provided, check the license terms for device limits, contact the software vendor's support",
+    "solution_my": "key ကို ပေးထားသည့်အတိုင်း အတိအကျ ရိုက်ထည့်ထားခြင်း ရှိမရှိ ပြန်စစ်ပါ"
+  },
+  {
+    "id": 99,
+    "category": "Software - General",
+    "problem_en": "PDF files won't open",
+    "problem_my": "PDF file များ ဖွင့်၍မရခြင်း",
+    "symptoms_en": "PDF viewer shows a blank page or an error about a damaged file",
+    "symptoms_my": "PDF viewer တွင် စာမျက်နှာအလွတ် (သို့) ဖိုင်ပျက်နေကြောင်း error ပြသ",
+    "solution_en": "Try opening with a different PDF reader, re-download the file if it was downloaded, update the PDF reader application",
+    "solution_my": "PDF reader တခြားတစ်ခုဖြင့် ဖွင့်ကြည့်ပါ၊ download ဖြစ်ပါက ဖိုင်ကို ပြန် download လုပ်ပါ"
+  },
+  {
+    "id": 100,
+    "category": "Software - General",
+    "problem_en": "Browser keeps redirecting to unwanted websites",
+    "problem_my": "browser ကို မလိုချင်သော website များသို့ redirect ဖြစ်နေခြင်း",
+    "symptoms_en": "Random tabs open, homepage or search engine changed without permission",
+    "symptoms_my": "tab အသစ်များ အလိုအလျောက် ပွင့်လာသည်၊ homepage (သို့) search engine ခွင့်ပြုချက်မရှိဘဲ ပြောင်းသွားသည်",
+    "solution_en": "Remove suspicious browser extensions, run a malware scan with Malwarebytes or similar, reset browser settings to default",
+    "solution_my": "သံသယရှိသော browser extension များကို ဖြုတ်ပါ၊ malware scan လုပ်ပါ"
+  },
+  {
+    "id": 101,
+    "category": "Software - General",
+    "problem_en": "Word or Excel file won't open, shows corruption error",
+    "problem_my": "Word/Excel file ဖွင့်၍မရဘဲ ပျက်စီးမှု error ပြသခြင်း",
+    "symptoms_en": "Office application shows a message that the file is corrupted or unreadable",
+    "symptoms_my": "Office application တွင် file ပျက်စီးနေကြောင်း (သို့) ဖတ်၍မရကြောင်း message ပြသ",
+    "solution_en": "Try Open and Repair option in Office, check for a backup or auto-recovery version, try opening on a different computer",
+    "solution_my": "Office ၏ Open and Repair option ကို သုံးကြည့်ပါ၊ backup (သို့) auto-recovery version ရှာပါ"
+  },
+  {
+    "id": 102,
+    "category": "Software - General",
+    "problem_en": "Video playback stutters or lags",
+    "problem_my": "video ဖွင့်ကြည့်ချိန် ရပ်ရပ်တောင့်တောင့်ဖြစ်ခြင်း",
+    "symptoms_en": "Choppy playback, audio out of sync with video",
+    "symptoms_my": "video ချောမွေ့စွာ မလည်ပတ်၊ အသံနှင့် video မကိုက်ညီ",
+    "solution_en": "Update graphics drivers, try a different media player, lower the video resolution/quality if streaming with a slow connection",
+    "solution_my": "graphics driver update လုပ်ပါ၊ media player တခြားတစ်ခု စမ်းသုံးကြည့်ပါ"
+  },
+  {
+    "id": 103,
+    "category": "Software - General",
+    "problem_en": "Software update fails to install",
+    "problem_my": "software update install မအောင်မြင်ခြင်း",
+    "symptoms_en": "Update download completes but installation errors out or hangs",
+    "symptoms_my": "update download ပြီးသော်လည်း install လုပ်ချိန် error ဖြစ် (သို့) ရပ်နေသည်",
+    "solution_en": "Run the update as administrator, temporarily disable antivirus during install, check available disk space",
+    "solution_my": "administrator အနေဖြင့် update ကို run ပါ၊ install လုပ်စဉ် antivirus ကို ယာယီပိတ်ပါ"
+  },
+  {
+    "id": 104,
+    "category": "Software - General",
+    "problem_en": "Zoom, Teams, or video call app has no camera/mic access",
+    "problem_my": "Zoom, Teams စသည့် video call app တွင် camera/mic အသုံးပြုခွင့်မရခြင်း",
+    "symptoms_en": "App shows camera/mic as blocked or not detected during calls",
+    "symptoms_my": "call အတွင်း app တွင် camera/mic ပိတ်ထား (သို့) မတွေ့ကြောင်း ပြသ",
+    "solution_en": "Check OS privacy settings allow the app to access camera and microphone, restart the app, check no other app is using the camera",
+    "solution_my": "OS privacy setting တွင် app ကို camera/mic သုံးခွင့်ပေးထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 105,
+    "category": "Software - General",
+    "problem_en": "Compressed ZIP or RAR file won't extract",
+    "problem_my": "ZIP/RAR ဖိုင်ကို extract လုပ်၍မရခြင်း",
+    "symptoms_en": "Extraction fails partway or shows a corrupted archive error",
+    "symptoms_my": "extract လုပ်နေစဉ် တစ်ဝက်တွင် ရပ် (သို့) archive ပျက်နေကြောင်း error ပြသ",
+    "solution_en": "Re-download the file as it may be incomplete, try a different extraction tool like 7-Zip, check if the archive is password protected",
+    "solution_my": "ဖိုင်ကို ပြန် download လုပ်ပါ (မပြည့်စုံနိုင်သောကြောင့်)၊ 7-Zip ကဲ့သို့ tool တခြားစမ်းသုံးပါ"
+  },
+  {
+    "id": 106,
+    "category": "Software - General",
+    "problem_en": "Game crashes to desktop randomly",
+    "problem_my": "game သည် ရုတ်တရက် desktop သို့ ပြန်ကျခြင်း",
+    "symptoms_en": "Game closes unexpectedly during play with no error message",
+    "symptoms_my": "game ကစားနေစဉ် error message မပါဘဲ ရုတ်တရက်ပိတ်သွားသည်",
+    "solution_en": "Update graphics drivers, verify game file integrity through the game launcher, check for overheating during extended play",
+    "solution_my": "graphics driver update လုပ်ပါ၊ game launcher မှ file integrity ကို verify လုပ်ပါ"
+  },
+  {
+    "id": 107,
+    "category": "Software - General",
+    "problem_en": "Email client won't send or receive messages",
+    "problem_my": "email client မှ message ပို့/လက်ခံ၍မရခြင်း",
+    "symptoms_en": "Sending gets stuck in outbox, or new emails don't appear",
+    "symptoms_my": "ပို့သည့် message outbox တွင်ရပ်နေသည် (သို့) email အသစ်များ မပေါ်",
+    "solution_en": "Check internet connection, verify email server settings (SMTP/IMAP), re-enter account password if it was recently changed",
+    "solution_my": "အင်တာနက်ချိတ်ဆက်မှု စစ်ဆေးပါ၊ email server setting (SMTP/IMAP) မှန်ကန်မှု စစ်ဆေးပါ"
+  },
+  {
+    "id": 108,
+    "category": "Software - General",
+    "problem_en": "Anti-virus software slowing down the whole computer",
+    "problem_my": "anti-virus software က ကွန်ပျူတာတစ်ခုလုံးကို နှေးအောင်လုပ်နေခြင်း",
+    "symptoms_en": "System becomes very slow especially during scheduled scans",
+    "symptoms_my": "scan schedule ပြုလုပ်နေချိန်တွင် အထူးသဖြင့် system အလွန်နှေးလာသည်",
+    "solution_en": "Schedule scans during idle/off hours, exclude trusted large folders from real-time scanning, consider switching to a lighter antivirus solution",
+    "solution_my": "scan schedule ကို အသုံးမပြုချိန်များတွင် ချိန်ညှိပါ"
+  },
+  {
+    "id": 109,
+    "category": "Network - WiFi",
+    "problem_en": "WiFi connects but no internet access",
+    "problem_my": "WiFi ချိတ်ဆက်ပြီးသော်လည်း အင်တာနက်မရခြင်း",
+    "symptoms_en": "Shows connected with full signal bars but websites won't load",
+    "symptoms_my": "signal အပြည့်ပြသနေသော်လည်း website များ ဖွင့်၍မရ",
+    "solution_en": "Restart the router and modem, forget and reconnect to the network, check if other devices have the same issue to isolate the cause",
+    "solution_my": "router နှင့် modem ကို restart လုပ်ပါ၊ network ကို forget ပြီး ပြန်ချိတ်ပါ"
+  },
+  {
+    "id": 110,
+    "category": "Network - WiFi",
+    "problem_en": "WiFi signal is weak in certain rooms",
+    "problem_my": "အခန်းအချို့တွင် WiFi signal အားနည်းခြင်း",
+    "symptoms_en": "Slow speeds or frequent disconnects in specific areas of the house",
+    "symptoms_my": "အိမ်၏ တိကျသော နေရာအချို့တွင် အလျင်နှေး (သို့) ချိတ်ဆက်မှု အမြဲပြတ်နေသည်",
+    "solution_en": "Reposition the router to a more central location, use a WiFi extender or mesh system, avoid placing router near thick walls or metal objects",
+    "solution_my": "router ကို ပိုမိုအလယ်ဗဟိုကျသော နေရာသို့ ရွှေ့ပါ၊ WiFi extender (သို့) mesh system သုံးပါ"
+  },
+  {
+    "id": 111,
+    "category": "Network - WiFi",
+    "problem_en": "Can't find WiFi network in the list",
+    "problem_my": "WiFi network စာရင်းတွင် ရှာမတွေ့ခြင်း",
+    "symptoms_en": "The specific network SSID does not appear when scanning",
+    "symptoms_my": "scan လုပ်သောအခါ သတ်သတ်SSID မပေါ်ရှိပါ",
+    "solution_en": "Check if the network is set to hidden and enter it manually, ensure the router's WiFi broadcasting is enabled, restart the router",
+    "solution_my": "network ကို hidden setting ထားခြင်း ရှိမရှိ စစ်ဆေးပြီး manual ရိုက်ထည့်ပါ"
+  },
+  {
+    "id": 112,
+    "category": "Network - WiFi",
+    "problem_en": "WiFi password not accepted despite being correct",
+    "problem_my": "စကားဝှက်မှန်ကန်သော်လည်း WiFi လက်ခံခြင်းမရှိ",
+    "symptoms_en": "Repeated 'incorrect password' error even after re-entering carefully",
+    "symptoms_my": "သေချာစွာ ပြန်ရိုက်ထည့်ပြီးသော်လည်း 'incorrect password' error ထပ်ခါထပ်ခါပြသ",
+    "solution_en": "Forget the network and reconnect from scratch, check for special characters that may not have been typed correctly, restart the device's WiFi adapter",
+    "solution_my": "network ကို forget လုပ်ပြီး အစကနေ ပြန်ချိတ်ပါ"
+  },
+  {
+    "id": 113,
+    "category": "Network - WiFi",
+    "problem_en": "Device connects to WiFi but keeps dropping every few minutes",
+    "problem_my": "device WiFi ချိတ်ဆက်သော်လည်း မိနစ်အနည်းငယ်တိုင်း ပြတ်တောက်နေခြင်း",
+    "symptoms_en": "Connection is stable briefly then disconnects repeatedly",
+    "symptoms_my": "ချိတ်ဆက်မှု ခဏတည်ငြိမ်ပြီး ထပ်ခါထပ်ခါ ပြတ်တောက်နေသည်",
+    "solution_en": "Update the WiFi adapter driver, disable power-saving mode for the WiFi adapter, check for interference from other electronics",
+    "solution_my": "WiFi adapter driver ကို update လုပ်ပါ၊ WiFi adapter power-saving mode ကို ပိတ်ပါ"
+  },
+  {
+    "id": 114,
+    "category": "Network - WiFi",
+    "problem_en": "5GHz WiFi band not showing up on devices",
+    "problem_my": "device များတွင် 5GHz WiFi band မပေါ်ခြင်း",
+    "symptoms_en": "Only the 2.4GHz network is visible even though the router supports 5GHz",
+    "symptoms_my": "router သည် 5GHz ထောက်ခံသော်လည်း 2.4GHz network သာ ပေါ်နေသည်",
+    "solution_en": "Check the 5GHz band is enabled in router settings, confirm the device's WiFi adapter supports 5GHz, move closer to the router as 5GHz has shorter range",
+    "solution_my": "router setting တွင် 5GHz band ဖွင့်ထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 115,
+    "category": "Network - WiFi",
+    "problem_en": "Too many devices slowing down the WiFi network",
+    "problem_my": "device အများအပြားချိတ်ဆက်ထားခြင်းကြောင့် WiFi network နှေးနေခြင်း",
+    "symptoms_en": "Speed drops noticeably when many devices are connected simultaneously",
+    "symptoms_my": "device အများအပြား တစ်ပြိုင်နက်ချိတ်ဆက်ထားချိန် အလျင် သိသိသာသာကျသွားသည်",
+    "solution_en": "Disconnect unused devices, set up Quality of Service (QoS) on the router to prioritize important devices, consider upgrading the internet plan",
+    "solution_my": "မလိုအပ်သော device များ ဖြုတ်ပါ၊ router တွင် QoS setting ထားပါ"
+  },
+  {
+    "id": 116,
+    "category": "Network - WiFi",
+    "problem_en": "WiFi works on phone but not on laptop",
+    "problem_my": "phone တွင် WiFi အလုပ်လုပ်သော်လည်း laptop တွင် မလုပ်ခြင်း",
+    "symptoms_en": "One device connects fine while another on the same network cannot",
+    "symptoms_my": "network တူသော်လည်း device တစ်ခုက ချိတ်ဆက်ကောင်း၊ တစ်ခုက ချိတ်ဆက်မရ",
+    "solution_en": "Update or reinstall the laptop's WiFi adapter driver, run the Windows network troubleshooter, reset the laptop's network settings",
+    "solution_my": "laptop ၏ WiFi adapter driver ကို update/ပြန်တင်ပါ"
+  },
+  {
+    "id": 117,
+    "category": "Network - WiFi",
+    "problem_en": "Cannot connect to public WiFi hotspot login page",
+    "problem_my": "public WiFi hotspot login page သို့ ဝင်ရောက်၍မရခြင်း",
+    "symptoms_en": "Connected to the hotspot but the login/portal page never appears",
+    "symptoms_my": "hotspot ချိတ်ဆက်ပြီးသော်လည်း login/portal page လုံးဝမပေါ်",
+    "solution_en": "Open a browser and manually navigate to a non-HTTPS website to trigger the portal, disable VPN temporarily, try a different browser",
+    "solution_my": "browser ဖွင့်ပြီး HTTPS မဟုတ်သော website တစ်ခုသို့ manual သွားကြည့်ပါ"
+  },
+  {
+    "id": 118,
+    "category": "Network - WiFi",
+    "problem_en": "Smart home devices keep losing WiFi connection",
+    "problem_my": "smart home device များ WiFi ချိတ်ဆက်မှု ပြတ်တောက်နေခြင်း",
+    "symptoms_en": "IoT devices like smart plugs or cameras go offline frequently",
+    "symptoms_my": "smart plug (သို့) camera ကဲ့သို့ IoT device များ မကြာခဏ offline ဖြစ်နေသည်",
+    "solution_en": "Most smart devices only support 2.4GHz — ensure they're connected to that band specifically, keep them within good router range",
+    "solution_my": "smart device အများစုသည် 2.4GHz ကိုသာ ထောက်ခံသဖြင့် ထို band တွင် ချိတ်ဆက်ထားကြောင်း သေချာပါ"
+  },
+  {
+    "id": 119,
+    "category": "Network - Router/Modem",
+    "problem_en": "Router lights blinking but no internet",
+    "problem_my": "router light များ လင်းနေသော်လည်း အင်တာနက်မရခြင်း",
+    "symptoms_en": "Power and WiFi lights on, but internet/WAN light is off or red",
+    "symptoms_my": "power နှင့် WiFi light များလင်းနေသော်လည်း internet/WAN light ပိတ် (သို့) အနီရောင်ဖြစ်နေသည်",
+    "solution_en": "Check the cable from the ISP/modem to the router is securely connected, restart both modem and router in order (modem first)",
+    "solution_my": "ISP/modem မှ router သို့ ကြိုးချိတ်ဆက်မှု စစ်ဆေးပါ၊ modem ကို အရင် restart လုပ်ပြီး router ကို restart လုပ်ပါ"
+  },
+  {
+    "id": 120,
+    "category": "Network - Router/Modem",
+    "problem_en": "Cannot access router admin page",
+    "problem_my": "router admin page သို့ ဝင်ရောက်၍မရခြင်း",
+    "symptoms_en": "Typing the router's IP address in browser shows a timeout or won't load",
+    "symptoms_my": "browser တွင် router IP address ရိုက်ထည့်လျှင် timeout ဖြစ် (သို့) load မဝင်",
+    "solution_en": "Confirm you're connected to the router's own network, check the correct IP address (often 192.168.1.1 or 192.168.0.1), try a different browser",
+    "solution_my": "router ၏ network သို့ ချိတ်ဆက်ထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 121,
+    "category": "Network - Router/Modem",
+    "problem_en": "Router keeps restarting on its own",
+    "problem_my": "router ကိုယ်တိုင် အလိုအလျောက် ပြန်စတင်နေခြင်း",
+    "symptoms_en": "Router power light cycles off and on repeatedly without user action",
+    "symptoms_my": "user ဘာမှမလုပ်ဘဲ router power light အလိုအလျောက် ပိတ်/ဖွင့် ထပ်ခါထပ်ခါ ဖြစ်နေသည်",
+    "solution_en": "Check the power adapter and outlet are stable, ensure the router isn't overheating, update router firmware, the router may need replacement if old",
+    "solution_my": "power adapter နှင့် outlet တည်ငြိမ်မှု စစ်ဆေးပါ၊ router firmware ကို update လုပ်ပါ"
+  },
+  {
+    "id": 122,
+    "category": "Network - Router/Modem",
+    "problem_en": "Forgot router admin password",
+    "problem_my": "router admin password မေ့သွားခြင်း",
+    "symptoms_en": "Cannot log into router settings with any password remembered",
+    "symptoms_my": "မှတ်မိသော password ဘယ်တစ်ခုနှင့်မျှ router setting ထဲသို့ ဝင်၍မရ",
+    "solution_en": "Perform a factory reset by holding the reset button on the router for 10 seconds, then log in with the default password printed on the router label",
+    "solution_my": "router ၏ reset button ကို ၁၀ စက္ကန့် ဖိထားပြီး factory reset လုပ်ပါ"
+  },
+  {
+    "id": 123,
+    "category": "Network - Router/Modem",
+    "problem_en": "Port forwarding not working for a game or server",
+    "problem_my": "game/server တစ်ခုအတွက် port forwarding အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "External connections to the port fail even after configuring forwarding rules",
+    "symptoms_my": "forwarding rule ချိန်ညှိပြီးသည့်တိုင် port သို့ ပြင်ပချိတ်ဆက်မှု မအောင်မြင်",
+    "solution_en": "Verify the device has a static local IP address, check the ISP isn't using CGNAT (which blocks port forwarding), confirm firewall isn't blocking the port",
+    "solution_my": "device တွင် static local IP address သတ်မှတ်ထားခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 124,
+    "category": "Network - Router/Modem",
+    "problem_en": "Router firmware update fails",
+    "problem_my": "router firmware update မအောင်မြင်ခြင်း",
+    "symptoms_en": "Update process errors out or router becomes unresponsive after update attempt",
+    "symptoms_my": "update process error ဖြစ် (သို့) update ကြိုးစားပြီးနောက် router တုံ့ပြန်မှုမရှိတော့ပါ",
+    "solution_en": "Never power off the router during an update, download the correct firmware file for the exact model, try updating via a wired connection instead of WiFi",
+    "solution_my": "update လုပ်နေစဉ် router ကို လျှပ်စစ်ဖြတ်တောက်ခြင်း လုံးဝ မလုပ်ပါနှင့်"
+  },
+  {
+    "id": 125,
+    "category": "Network - Router/Modem",
+    "problem_en": "Modem shows no signal from ISP",
+    "problem_my": "modem သည် ISP မှ signal လုံးဝမရရှိခြင်း",
+    "symptoms_en": "Modem's 'signal' or 'online' light stays off or red continuously",
+    "symptoms_my": "modem ၏ 'signal' (သို့) 'online' light ပိတ် (သို့) အနီရောင် အမြဲဖြစ်နေသည်",
+    "solution_en": "Check the physical cable connection from the wall to the modem, contact the ISP as this often indicates an outage or line issue on their end",
+    "solution_my": "နံရံမှ modem သို့ ကြိုးချိတ်ဆက်မှု စစ်ဆေးပါ၊ ISP ကို ဆက်သွယ်ပါ (ISP ဘက်မှ ပြဿနာဖြစ်နိုင်သည်)"
+  },
+  {
+    "id": 126,
+    "category": "Network - Connectivity",
+    "problem_en": "Ethernet cable connected but no internet",
+    "problem_my": "Ethernet ကြိုးချိတ်ဆက်ထားသော်လည်း အင်တာနက်မရခြင်း",
+    "symptoms_en": "Cable is plugged in but shows 'no internet' or 'unidentified network'",
+    "symptoms_my": "ကြိုးချိတ်ဆက်ထားသော်လည်း 'no internet' (သို့) 'unidentified network' ပြသ",
+    "solution_en": "Check the cable for damage and try a different one, verify the network adapter is enabled in settings, restart the router",
+    "solution_my": "ကြိုးပျက်စီးမှု ရှိမရှိ စစ်ဆေးပြီး တခြားကြိုးဖြင့် စမ်းပါ"
+  },
+  {
+    "id": 127,
+    "category": "Network - Connectivity",
+    "problem_en": "VPN won't connect",
+    "problem_my": "VPN ချိတ်ဆက်၍မရခြင်း",
+    "symptoms_en": "VPN client shows connection error or times out during connection",
+    "symptoms_my": "VPN client တွင် connection error (သို့) connect လုပ်နေစဉ် timeout ဖြစ်ခြင်း",
+    "solution_en": "Check the VPN credentials are correct, try a different server location, restart the VPN client and check for app updates",
+    "solution_my": "VPN account information မှန်ကန်မှု စစ်ဆေးပါ၊ server တခြားတစ်ခု စမ်းကြည့်ပါ"
+  },
+  {
+    "id": 128,
+    "category": "Network - Connectivity",
+    "problem_en": "IP address conflict error",
+    "problem_my": "IP address conflict error ပေါ်ခြင်း",
+    "symptoms_en": "Windows shows 'IP address conflict' notification, network becomes unstable",
+    "symptoms_my": "Windows တွင် 'IP address conflict' အသိပေးချက် ပေါ်ခြင်း၊ network တည်ငြိမ်မှုမရှိတော့ပါ",
+    "solution_en": "Release and renew the IP address via command prompt (ipconfig /release then /renew), restart the router to reset DHCP assignments",
+    "solution_my": "command prompt မှ ipconfig /release ပြီးနောက် /renew ကို run ပါ"
+  },
+  {
+    "id": 129,
+    "category": "Network - Connectivity",
+    "problem_en": "Can't access shared folders on local network",
+    "problem_my": "local network ပေါ်ရှိ shared folder များသို့ ဝင်ရောက်၍မရခြင်း",
+    "symptoms_en": "Other computers on the network aren't visible or accessible",
+    "symptoms_my": "network ပေါ်ရှိ ကွန်ပျူတာအခြားများ မမြင်ရ (သို့) ဝင်ရောက်၍မရ",
+    "solution_en": "Enable network discovery and file sharing in network settings, ensure both computers are on the same network/workgroup, check firewall settings",
+    "solution_my": "network setting တွင် network discovery နှင့် file sharing ကို ဖွင့်ပါ"
+  },
+  {
+    "id": 130,
+    "category": "Network - Connectivity",
+    "problem_en": "DNS server not responding",
+    "problem_my": "DNS server တုံ့ပြန်မှုမရှိခြင်း",
+    "symptoms_en": "Browser shows 'DNS server not responding' when trying to load websites",
+    "symptoms_my": "website ဖွင့်ကြည့်သောအခါ browser တွင် 'DNS server not responding' ပြသ",
+    "solution_en": "Flush the DNS cache (ipconfig /flushdns), change to a public DNS server like 8.8.8.8, restart the router",
+    "solution_my": "DNS cache ကို flush လုပ်ပါ (ipconfig /flushdns)၊ 8.8.8.8 ကဲ့သို့ public DNS ပြောင်းသုံးပါ"
+  },
+  {
+    "id": 131,
+    "category": "Network - Connectivity",
+    "problem_en": "Internet works on WiFi but not through Ethernet on the same device",
+    "problem_my": "device တစ်ခုတည်းတွင် WiFi က အလုပ်လုပ်သော်လည်း Ethernet အလုပ်မလုပ်ခြင်း",
+    "symptoms_en": "Switching connection type on the same laptop shows different results",
+    "symptoms_my": "laptop တစ်ခုတည်းတွင် connection type ပြောင်းသောအခါ ရလဒ်ကွဲပြားနေသည်",
+    "solution_en": "Update or reinstall the Ethernet adapter driver, check the Ethernet port and cable for damage, disable then re-enable the Ethernet adapter",
+    "solution_my": "Ethernet adapter driver ကို update/ပြန်တင်ပါ"
+  },
+  {
+    "id": 132,
+    "category": "Network - Speed",
+    "problem_en": "Internet speed much slower than what is paid for",
+    "problem_my": "ငွေပေးထားသော အလျင်ထက် အင်တာနက်အလျင် သိသိသာသာ နှေးခြင်း",
+    "symptoms_en": "Speed test results are consistently far below the subscribed plan",
+    "symptoms_my": "speed test ရလဒ်များသည် subscribe လုပ်ထားသော plan ထက် အမြဲနိမ့်နေသည်",
+    "solution_en": "Test speed with a wired connection to rule out WiFi issues, restart the modem/router, run the test at different times of day, contact ISP if the issue persists",
+    "solution_my": "WiFi ပြဿနာဖြစ်နိုင်ခြေဖယ်ရှားရန် ကြိုးဖြင့် speed test လုပ်ပါ"
+  },
+  {
+    "id": 133,
+    "category": "Network - Speed",
+    "problem_en": "Video calls freezing or dropping frequently",
+    "problem_my": "video call များ ရုတ်တရက်ရပ် (သို့) မကြာခဏ ပြတ်တောက်ခြင်း",
+    "symptoms_en": "Call quality degrades, video freezes, or the call disconnects entirely",
+    "symptoms_my": "call အရည်အသွေးကျ၊ video ရပ် (သို့) call လုံးဝပြတ်တောက်သွားသည်",
+    "solution_en": "Close other bandwidth-heavy applications during calls, connect via Ethernet instead of WiFi if possible, lower video quality settings in the app",
+    "solution_my": "call လုပ်နေစဉ် bandwidth များစွာသုံးသော app များ ပိတ်ပါ"
+  },
+  {
+    "id": 134,
+    "category": "Network - Speed",
+    "problem_en": "Downloads are very slow despite good speed test results",
+    "problem_my": "speed test ရလဒ် ကောင်းသော်လည်း download အလွန်နှေးခြင်း",
+    "symptoms_en": "Speed test shows fast speeds but actual file downloads crawl",
+    "symptoms_my": "speed test တွင် အလျင်မြန်ဆန်သော်လည်း တကယ့် file download သည် နှေးကွေးနေသည်",
+    "solution_en": "Check if the download source/server itself is slow, try downloading from a different source, check for download manager throttling settings",
+    "solution_my": "download လုပ်နေသော source/server ကိုယ်တိုင် နှေးနေခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 135,
+    "category": "Network - Speed",
+    "problem_en": "Internet slows down significantly in the evening",
+    "problem_my": "ညနေချိန်များတွင် အင်တာနက် သိသိသာသာနှေးလာခြင်း",
+    "symptoms_en": "Speed is normal during the day but drops noticeably at peak hours",
+    "symptoms_my": "နေ့ဘက်တွင် ပုံမှန်ရှိသော်လည်း peak hour များတွင် သိသိသာသာကျသွားသည်",
+    "solution_en": "This is often network congestion from the ISP during high-usage hours; contact the ISP to ask about peak-time throttling or consider a plan upgrade",
+    "solution_my": "ISP ဘက်မှ peak hour usage congestion ဖြစ်နိုင်သည်၊ ISP ကို ဆက်သွယ်မေးမြန်းပါ"
+  },
+  {
+    "id": 136,
+    "category": "Network - Speed",
+    "problem_en": "One device hogging all the bandwidth",
+    "problem_my": "device တစ်ခုက bandwidth အားလုံးကို သုံးနေခြင်း",
+    "symptoms_en": "Internet is slow for all devices when one specific device is active",
+    "symptoms_my": "device တစ်ခု အသုံးပြုနေစဉ် device အားလုံးအတွက် အင်တာနက်နှေးနေသည်",
+    "solution_en": "Check the router's connected devices list for bandwidth usage, identify and pause large downloads/uploads/backups on that device, set up QoS",
+    "solution_my": "router ၏ connected device list တွင် bandwidth သုံးစွဲမှု စစ်ဆေးပါ"
+  },
+  {
+    "id": 137,
+    "category": "Installation - OS",
+    "problem_en": "Windows installation stuck at a specific percentage",
+    "problem_my": "Windows install လုပ်နေစဉ် ရာခိုင်နှုန်းအထူးတစ်ခုတွင် ရပ်နေခြင်း",
+    "symptoms_en": "Installer progress bar doesn't move for a very long time",
+    "symptoms_my": "installer progress bar ကြာမြင့်စွာ မရွေ့တော့ပါ",
+    "solution_en": "Wait at least 30-60 minutes as some stages take time, if truly frozen restart and try installing from a freshly created USB drive",
+    "solution_my": "အနည်းဆုံး ၃၀-၆၀ မိနစ် စောင့်ကြည့်ပါ၊ တကယ်ရပ်နေပါက USB ကို အသစ်ပြန်ပြုလုပ်ပြီး ပြန်ကြိုးစားပါ"
+  },
+  {
+    "id": 138,
+    "category": "Installation - OS",
+    "problem_en": "No bootable device found when installing OS",
+    "problem_my": "OS install လုပ်ရန် bootable device ရှာမတွေ့ခြင်း",
+    "symptoms_en": "PC shows 'No bootable device' error when starting from installation media",
+    "symptoms_my": "installation media မှ စတင်သောအခါ PC တွင် 'No bootable device' error ပေါ်သည်",
+    "solution_en": "Check boot order in BIOS/UEFI settings puts the USB/DVD first, verify the installation media was created correctly, try a different USB port",
+    "solution_my": "BIOS/UEFI setting တွင် boot order ကို USB/DVD အရင်ဖြစ်အောင် စစ်ဆေးပါ"
+  },
+  {
+    "id": 139,
+    "category": "Installation - OS",
+    "problem_en": "Linux installer fails to detect existing Windows partition",
+    "problem_my": "Linux installer သည် ရှိပြီးသား Windows partition ကို ရှာမတွေ့ခြင်း",
+    "symptoms_en": "Dual-boot setup option doesn't appear during installation",
+    "symptoms_my": "install လုပ်နေစဉ် dual-boot setup option မပေါ်ပါ",
+    "solution_en": "Disable Fast Startup and Secure Boot in Windows/BIOS before installing, ensure Windows was shut down completely (not hibernated) before installation",
+    "solution_my": "install မလုပ်မီ Windows/BIOS တွင် Fast Startup နှင့် Secure Boot ကို ပိတ်ပါ"
+  },
+  {
+    "id": 140,
+    "category": "Installation - OS",
+    "problem_en": "macOS installer says disk cannot be used",
+    "problem_my": "macOS installer တွင် disk ကို အသုံးမပြုနိုင်ကြောင်း ပြသခြင်း",
+    "symptoms_en": "Installer shows the target disk in grey or with a warning icon",
+    "symptoms_my": "installer တွင် target disk ကို မီးခိုးရောင် (သို့) သတိပေး icon ဖြင့်ပြသ",
+    "solution_en": "Open Disk Utility from the Recovery menu and erase/reformat the disk with the correct format (APFS or Mac OS Extended) before installing",
+    "solution_my": "Recovery menu မှ Disk Utility ဖွင့်ပြီး disk ကို မှန်ကန်သော format ဖြင့် ပြန် format လုပ်ပါ"
+  },
+  {
+    "id": 141,
+    "category": "Installation - OS",
+    "problem_en": "System requirements not met error during OS installation",
+    "problem_my": "OS install လုပ်စဉ် system requirements မပြည့်မီကြောင်း error ပြသခြင်း",
+    "symptoms_en": "Installer blocks setup citing insufficient RAM, storage, or unsupported CPU",
+    "symptoms_my": "installer သည် RAM, storage မလုံလောက်ခြင်း (သို့) CPU ထောက်ခံမှုမရှိကြောင်း ကိုးကားပြီး setup ကို ပိတ်ပင်သည်",
+    "solution_en": "Check the OS's minimum system requirements against your hardware specs, free up disk space if storage is the issue, some checks can be bypassed with official workarounds for advanced users",
+    "solution_my": "OS ၏ minimum system requirement ကို hardware spec နှင့် နှိုင်းယှဉ်စစ်ဆေးပါ"
+  },
+  {
+    "id": 142,
+    "category": "Installation - Drivers",
+    "problem_en": "Graphics driver installation keeps failing",
+    "problem_my": "graphics driver install လုပ်ခြင်း ထပ်ခါထပ်ခါ မအောင်မြင်ခြင်း",
+    "symptoms_en": "Installer errors out partway or the driver doesn't take effect after install",
+    "symptoms_my": "installer သည် တစ်ဝက်တွင် error ဖြစ် (သို့) install ပြီးနောက် driver အလုပ်မလုပ်",
+    "solution_en": "Use Display Driver Uninstaller (DDU) in Safe Mode to fully remove the old driver first, then install the new one fresh",
+    "solution_my": "Safe Mode တွင် Display Driver Uninstaller (DDU) သုံး၍ driver အဟောင်းကို အပြည့်အစုံ ဖယ်ရှားပြီးမှ အသစ်ပြန် install လုပ်ပါ"
+  },
+  {
+    "id": 143,
+    "category": "Installation - Drivers",
+    "problem_en": "Printer driver not compatible with new OS after upgrade",
+    "problem_my": "OS upgrade ပြီးနောက် printer driver ကိုက်ညီမှုမရှိတော့ခြင်း",
+    "symptoms_en": "Printer worked before the OS update but now shows driver errors",
+    "symptoms_my": "OS update မလုပ်မီ printer အလုပ်လုပ်ခဲ့သော်လည်း ယခု driver error ပြသနေသည်",
+    "solution_en": "Check the manufacturer's website for an updated driver compatible with the new OS version, use Windows' generic printer driver as a temporary workaround",
+    "solution_my": "manufacturer website တွင် OS ဗားရှင်းအသစ်နှင့် ကိုက်ညီသော driver ရှာဒေါင်းလုဒ်လုပ်ပါ"
+  },
+  {
+    "id": 144,
+    "category": "Installation - Drivers",
+    "problem_en": "Device Manager shows unknown device with yellow warning",
+    "problem_my": "Device Manager တွင် အဖျော်အနက် (yellow warning) ပါသော unknown device ပြသခြင်း",
+    "symptoms_en": "A device is listed as 'Unknown Device' with no driver information",
+    "symptoms_my": "device တစ်ခုကို driver information မပါဘဲ 'Unknown Device' ဟုပြသထားသည်",
+    "solution_en": "Check the device's hardware ID in Device Manager properties and search for the matching driver online, or use a driver update utility",
+    "solution_my": "Device Manager properties တွင် hardware ID ကို ကြည့်ပြီး ကိုက်ညီသော driver ကို online ရှာပါ"
+  },
+  {
+    "id": 145,
+    "category": "Installation - Drivers",
+    "problem_en": "Sound driver installed but no audio devices listed",
+    "problem_my": "sound driver install လုပ်ပြီးသော်လည်း audio device စာရင်း မပေါ်ခြင်း",
+    "symptoms_en": "Sound settings show no playback devices at all after driver installation",
+    "symptoms_my": "driver install လုပ်ပြီးနောက် sound setting တွင် playback device လုံးဝမပေါ်",
+    "solution_en": "Restart the computer after driver installation, check the audio device isn't disabled in Device Manager, try a clean reinstall of the driver",
+    "solution_my": "driver install ပြီးနောက် ကွန်ပျူတာကို restart လုပ်ပါ"
+  },
+  {
+    "id": 146,
+    "category": "Installation - Drivers",
+    "problem_en": "Chipset drivers not installing on new motherboard",
+    "problem_my": "motherboard အသစ်တွင် chipset driver install မဝင်ခြင်း",
+    "symptoms_en": "Installer says no supported hardware found even on the correct board",
+    "symptoms_my": "motherboard မှန်ကန်သော်လည်း installer က ထောက်ခံသော hardware မတွေ့ကြောင်း ပြသသည်",
+    "solution_en": "Download the driver package specifically for the exact motherboard model and chipset from the manufacturer's official website, not a generic one",
+    "solution_my": "manufacturer official website မှ တိကျသော motherboard model အတွက် driver package ကို download လုပ်ပါ"
+  },
+  {
+    "id": 147,
+    "category": "Installation - Software",
+    "problem_en": "Software installation blocked by administrator restrictions",
+    "problem_my": "administrator ကန့်သတ်ချက်ကြောင့် software install ပိတ်ပင်ခံရခြင်း",
+    "symptoms_en": "Installer shows a message that administrator permission is required",
+    "symptoms_my": "installer တွင် administrator ခွင့်ပြုချက် လိုအပ်ကြောင်း message ပြသ",
+    "solution_en": "Right-click the installer and choose 'Run as administrator', contact the system administrator if on a managed/work computer",
+    "solution_my": "installer ကို right-click ပြီး 'Run as administrator' ကို ရွေးပါ"
+  },
+  {
+    "id": 148,
+    "category": "Installation - Software",
+    "problem_en": "Installer gets stuck at a progress bar with no error",
+    "problem_my": "installer သည် error မပါဘဲ progress bar တွင် ရပ်နေခြင်း",
+    "symptoms_en": "Progress bar stops moving indefinitely, no CPU activity from the installer",
+    "symptoms_my": "progress bar ကာလအကန့်အသတ်မရှိ ရပ်နေသည်၊ installer မှ CPU activity မရှိ",
+    "solution_en": "Wait a reasonable amount of time first, if truly stuck cancel and restart the installer, temporarily disable antivirus which may be silently blocking it",
+    "solution_my": "အချိန်အနည်းငယ် စောင့်ကြည့်ပါ၊ တကယ်ရပ်နေပါက cancel လုပ်ပြီး installer ကို ပြန်စတင်ပါ"
+  },
+  {
+    "id": 149,
+    "category": "Installation - Software",
+    "problem_en": "Not enough disk space error during installation",
+    "problem_my": "install လုပ်နေစဉ် disk space မလုံလောက်ကြောင်း error ပြသခြင်း",
+    "symptoms_en": "Installer stops and reports insufficient free space even though space seems available",
+    "symptoms_my": "space ရှိနေဟန်ရှိသော်လည်း installer သည် space မလုံလောက်ကြောင်း ရပ်တန့်ပြသသည်",
+    "solution_en": "Check the installer isn't requiring space on a specific drive (like C:) different from where you're trying to save data, clear temp files, empty recycle bin",
+    "solution_my": "installer သည် C: drive ကဲ့သို့ တိကျသော drive ပေါ်တွင် space လိုအပ်ခြင်း ရှိမရှိ စစ်ဆေးပါ"
+  },
+  {
+    "id": 150,
+    "category": "Installation - Software",
+    "problem_en": "Application installed but shortcut/icon is missing",
+    "problem_my": "application install ပြီးသော်လည်း shortcut/icon မတွေ့ခြင်း",
+    "symptoms_en": "Software installs successfully but no desktop or Start Menu icon appears",
+    "symptoms_my": "software install အောင်မြင်သော်လည်း desktop (သို့) Start Menu တွင် icon မပေါ်",
+    "solution_en": "Search for the application's .exe file directly in Program Files and create a shortcut manually, reinstall and check the 'create shortcut' option during setup",
+    "solution_my": "Program Files ထဲမှ application ၏ .exe file ကို ရှာပြီး manual shortcut ဖန်တီးပါ"
+  }
+]

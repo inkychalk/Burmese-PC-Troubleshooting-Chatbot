@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Our Store Tech Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="scene" aria-hidden="true">
+    <div class="blob blob-jade"></div>
+    <div class="blob blob-gold"></div>
+    <div class="circuit-overlay"></div>
+  </div>
+
+  <main class="app-shell">
+
+    <header class="chat-header">
+      <div class="brand">
+        <div class="avatar">T</div>
+        <div class="brand-text">
+          <h1>ကွန်ပြူတာနှင့်နည်းပညာဆိုင်ရာ</h1>
+          <p class="status"><span class="status-dot"></span>Chatbot</p>
+        </div>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Reply language">
+        <button type="button" class="lang-btn is-active" data-lang="my">မြန်မာ</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <section class="chat-window" id="chatWindow" aria-live="polite">
+      <!-- messages injected here -->
+    </section>
+
+    <div class="suggestions" id="suggestions">
+      <button class="chip" data-text="ကွန်ပျူတာ ဖွင့်မရပါ">ကွန်ပျူတာ ဖွင့်လို့မရပါ</button>
+      <button class="chip" data-text="CPU အလွန်ပူနေသည်">ကွန်ပြူတာ အရမ်းပူနေသည်</button>
+      <button class="chip" data-text="လက်ပ်တော့ အားသွင်းမရပါ">လက်ပ်တော့ အားမဝင်ပါ</button>
+      <button class="chip" data-text="နားကြပ် (သို့) စပီကာမှ အသံမထွက်ခြင်း">အသံမကြားရပါ</button>
+      <button class="chip" data-text="WiFi ချိတ်ဆက်ပြီးသော်လည်း အင်တာနက်မရခြင်း">Internet လိုင်းမကောင်းပါ။</button>
+      <button class="chip" data-text="အခန်းအချို့တွင် WiFi signal အားနည်းခြင်း">Wifi လိုင်းဆွဲအားနှေးနေသည်။</button>
+    </div>
+
+    <form class="composer" id="composerForm">
+      <textarea
+        id="messageInput"
+        rows="1"
+        placeholder="လိုအပ်သည်များကို မေးမြန်းရန်..."
+        autocomplete="off"
+      ></textarea>
+      <button type="submit" class="send-btn" id="sendBtn" aria-label="Send">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 12L20 4L14 20L11 13L4 12Z" fill="currentColor"/>
+        </svg>
+      </button>
+    </form>
+
+    <p class="footnote">Our Store & Services</p>
+
+  </main>
+
+<script src="js/chat.js"></script>
+</body>
+</html>

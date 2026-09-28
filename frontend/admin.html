@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Our Store Admin Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <!-- Login Form -->
+    <section id="loginSection" class="admin-login">
+      <div class="login-card">
+        <div class="login-header">
+          <h1>Admin Dashboard</h1>
+          <p>Our Store Tech Assistant</p>
+        </div>
+        <form id="loginForm" class="login-form">
+          <div class="form-group">
+            <label for="passwordInput">Admin Password</label>
+            <input type="password" id="passwordInput" placeholder="Enter password" required>
+          </div>
+          <button type="submit" class="btn-primary">Login</button>
+          <div id="loginError" class="error-message" style="display: none;"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section id="dashboardSection" class="admin-dashboard" style="display: none;">
+      <header class="admin-header">
+        <div>
+          <h1>Admin Dashboard</h1>
+          <p class="subtitle">Monitor usage & manage limits</p>
+        </div>
+        <button id="logoutBtn" class="btn-logout">Logout</button>
+      </header>
+
+      <!-- Metrics Grid -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-label">Concurrent Requests Now</div>
+          <div class="metric-value" id="metricConcurrent">0</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Active Users (5min)</div>
+          <div class="metric-value" id="metricActiveUsers">0</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Gemini Calls Today</div>
+          <div class="metric-value" id="metricGeminiToday">0</div>
+          <div class="metric-detail" id="metricGeminiDetails"></div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Daily Cap Remaining</div>
+          <div class="metric-value" id="metricCapRemaining">300</div>
+          <div class="metric-detail" id="metricCapPercent"></div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Rate Limited (Today)</div>
+          <div class="metric-value" id="metricRateLimited">0</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-label">Knowledge Base Size</div>
+          <div class="metric-value" id="metricKbSize">0</div>
+          <div class="metric-detail" id="metricKbDetail"></div>
+        </div>
+      </div>
+
+      <!-- Source Breakdown -->
+      <div class="section">
+        <h2>Response Source Breakdown (Today)</h2>
+        <div class="source-breakdown">
+          <div class="source-item">
+            <span class="source-label">Database</span>
+            <span class="source-value" id="sourceDb">0</span>
+          </div>
+          <div class="source-item">
+            <span class="source-label">Cache</span>
+            <span class="source-value" id="sourceCache">0</span>
+          </div>
+          <div class="source-item">
+            <span class="source-label">Gemini LLM</span>
+            <span class="source-value" id="sourceGemini">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Settings Form -->
+      <div class="section">
+        <h2>Configuration</h2>
+        <form id="configForm" class="config-form">
+          <div class="config-grid">
+            <div class="form-group">
+              <label for="rateLimitMinute">Requests per Minute</label>
+              <input type="number" id="rateLimitMinute" min="1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="rateLimitDay">Requests per Day</label>
+              <input type="number" id="rateLimitDay" min="1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="geminiCap">Gemini Daily Cap</label>
+              <input type="number" id="geminiCap" min="1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="adminLoginLimit">Admin Login Limit (per min)</label>
+              <input type="number" id="adminLoginLimit" min="1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="activeWindowMinutes">Active Session Window (min)</label>
+              <input type="number" id="activeWindowMinutes" min="1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="concurrentStale">Concurrent Request Stale (sec)</label>
+              <input type="number" id="concurrentStale" min="1" required>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Save Changes</button>
+            <div id="configStatus" class="status-message" style="display: none;"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
