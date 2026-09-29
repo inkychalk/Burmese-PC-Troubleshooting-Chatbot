@@ -227,7 +227,7 @@ Docker commands, database access, updating the knowledge base, and common proble
 
 Built by **Thura** — a network engineer moving into AI development.
 
-[LinkedIn](https://mm.linkedin.com/in/thuya-maung-a787101)
+[LinkedIn](https://www.linkedin.com/in/thuya-maung-a787101)
 [GitHub](https://github.com/inkychalk)
 
 ## License
