@@ -135,7 +135,7 @@ Gemini calls cost money, so they need to be visible and controllable. The dashbo
 ## Quick start
 
 ```bash
-git clone https://github.com/inkychalk/Burmese-PC-Troubleshooting-Chatbot.git
+git clone https://github.com/thuyamaungg/Burmese-PC-Troubleshooting-Chatbot.git
 cd Burmese-PC-Troubleshooting-Chatbot
 cp .env.example .env          # Windows cmd: copy .env.example .env
 # Open .env and fill in GEMINI_API_KEY, ADMIN_PASSWORD, SECRET_KEY
@@ -228,7 +228,7 @@ Docker commands, database access, updating the knowledge base, and common proble
 Built by **Thura** — a network engineer moving into AI development.
 
 [LinkedIn](https://www.linkedin.com/in/thuya-maung-a787101)
-[GitHub](https://github.com/inkychalk)
+[GitHub](https://github.com/thuyamaungg)
 
 ## License
 
