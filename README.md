@@ -135,8 +135,8 @@ Gemini calls cost money, so they need to be visible and controllable. The dashbo
 ## Quick start
 
 ```bash
-git clone https://github.com/inkychalk/burmese-pc-chatbot.git
-cd burmese-pc-chatbot
+git clone https://github.com/inkychalk/Burmese-PC-Troubleshooting-Chatbot.git
+cd Burmese-PC-Troubleshooting-Chatbot
 cp .env.example .env          # Windows cmd: copy .env.example .env
 # Open .env and fill in GEMINI_API_KEY, ADMIN_PASSWORD, SECRET_KEY
 docker compose up -d
@@ -184,7 +184,7 @@ Admin endpoints (session-based login, rate-limited to 5 attempts per minute) are
 ## Project structure
 
 ```
-burmese-pc-chatbot/
+Burmese-PC-Troubleshooting-Chatbot/
 ├── backend/
 │   ├── app.py                     # Flask app and routes
 │   ├── api/admin.py               # Admin auth, metrics, config
